@@ -17,13 +17,13 @@ import imagehash
 import pandas as pd 
 
 
-app = str(0)
+app = str(2)
 old_GUI = cv2.imread(app+'/old.png')
 new_GUI = cv2.imread(app+'/new.png')
 old_xml = app+'/old.xml'
 xml_tree = ET.parse(old_xml)
 csv_filename = "gui_changes.csv"
-root_directory = '/Users/sabihasalma/Documents/Academic/Research/GUIEvo/'
+root = '/Users/sabihasalma/Documents/Academic/Research/GUIEvo/'
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------|
 #														CREATING CSV FILE TO STORE XML TREE INFORMATION AND GUI CHANGES 								   |
@@ -162,7 +162,7 @@ for i in range (len(xmltree)):
 #Extraction of components from the old GUI
 
 oldGUI_components = {}
-oldGUI_directory = root_directory+app+'/oldGUI_directory'
+oldGUI_directory = root+app+'/oldGUI_directory'
 for i in component_boundary:
 	x = int(component_boundary[i][0])
 	y = int(component_boundary[i][1])
@@ -186,7 +186,7 @@ img = new_GUI
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img2 = img.copy()
 prev_img = img2.copy()
-mappedGUI_directory = root_directory+app+'/mappedGUI_directory'
+mappedGUI_directory = root+app+'/mappedGUI_directory'
 
 coords_list = {}
 for i in oldGUI_components:
@@ -276,26 +276,12 @@ def is_template_in_image(img, templ):
     thr = 10e-6
     return min_val <= thr
 
-#https://bits.mdminhazulhaque.io/opencv/find-image-in-another-image-using-opencv-and-numpy.html
-def has_image(image, template, threshold):
-	image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-	template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
-	w, h = template.shape[::-1]
-	res = cv2.matchTemplate(image, template, cv2.TM_CCOEFF_NORMED)
-	loc = np.where(res >= threshold)
-	try:
-		assert loc[0][0] > 0
-		assert loc[1][0] > 0
-		return (loc[1][0], loc[0][0])
-	except:
-		return (-1, -1)
-
 x = 0
 y = 63
 w = 1080
 h = 1920
 
-diffGUI_directory = root_directory+app+'/diffGUI_directory'
+diffGUI_directory = root+app+'/diffGUI_directory'
 if not os.path.exists(diffGUI_directory):
 	os.makedirs(diffGUI_directory)
 
@@ -316,7 +302,6 @@ cnts = imutils.grab_contours(cnts)
 
 bounds = {}
 count = 1
-
 for c in cnts:
 # nicely fiting a bounding box to the contour
 	(x, y, w, h) = cv2.boundingRect(c)
@@ -327,44 +312,42 @@ for c in cnts:
 	cv2.rectangle(im, (x, y), (x + w, y + h), (0, 0, 255), 3)	
 	count += 1
 
+cv2.imwrite(diffGUI_directory+"/changes.png", im)
+for i in bounds.keys():
+	im = bounds[i]
+	crop_img = im.replace("][",",").replace("[","").replace("]","").strip().split(",")
+	x = int(crop_img[0])
+	y = int(crop_img[1])
+	w = int(crop_img[2])
+	h = int(crop_img[3])
+	cv2.imwrite(diffGUI_directory+"/new-"+str(i)+".png",new_screen[y:y+h, x:x+w])
+
 added_components = {}
 
-for j in bounds.keys():
-	diff_comp = cv2.imread(diffGUI_directory+"/diff-"+str(j)+".png")
-	x, y = has_image(old_GUI, diff_comp, threshold = 0.70)
-	if x >= 0 and y >= 0:
-		"""
-		w, h, _ = diff_component.shape
-		cv2.rectangle(old_GUI, (x, y), (x+h, y+w), (255, 0, 0), 2)
-		cv2.imshow("Found the component at (%d,%d)" % (x, y), old_GUI)
-		cv2.waitKey(0xFFFF)
-		"""
-		print("Found")
+for i in component_boundary:
+	old_comp = cv2.imread(oldGUI_directory+"/old-"+str(i)+".png")
+	hash0 = imagehash.average_hash(Image.open(oldGUI_directory+'/old-'+str(i)+'.png')) 
+	for j in bounds.keys():
+		diff_comp = cv2.imread(diffGUI_directory+"/new-"+str(j)+".png")
+		hash1 = imagehash.average_hash(Image.open(diffGUI_directory+"/new-"+str(j)+".png"))
+		dim = (diff_comp.shape[1], diff_comp.shape[0])
+		similar = False
+		resized_old_comp = cv2.resize(old_comp, dim, interpolation = cv2.INTER_AREA)
+		cutoff_min = 15
+		cutoff_max = 25
+		if not is_template_in_image(diff_comp,resized_old_comp):
+			print("diff_comp-"+str(j)+": "+str(hash1 - hash0)+"with cutoff range "+str(cutoff_min)+"-"+str(cutoff_max))
+				
+			if hash0 - hash1 > cutoff_min and hash0 - hash1 < cutoff_max:
+				similar = False
 
-	else:
-		cv2.imwrite(diffGUI_directory+"/added-"+str(j)+".png",diff_comp)
+	if not similar:
+		cv2.imwrite("new-"+str(j)+".png",diff_comp)
 		added_components[j] = copy.deepcopy(bounds[j])
-		print("added-"+str(j))
 
+for i in added_components.keys():
+	print(added_components[i])
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------|
-#													TESTING TO LOCATE RESIZED OLD GUI COMPONENTS							 				  			   |			
-#__________________________________________________________________________________________________________________________________________________________|
-
-"""
-resized_components = {}
-for i in oldGUI_components:
-	old_comp =  cv2.imread(oldGUI_directory+"/old-"+str(i)+'.png')
-	x, y = has_image(new_GUI, old_comp, threshold = 0.50)
-	if x >= 0 and y >= 0:
-		w, h, _ = old_comp.shape
-		cv2.rectangle(new_GUI, (x, y), (x+h, y+w), (255, 0, 0), 2)
-		cv2.imshow("Found the component at (%d,%d)" % (x, y), new_GUI)
-		cv2.waitKey(0xFFFF)
-		print('old-'+str(i)+' Found')	
-	else:
-		print('Not Found')	
-"""
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------|
 #														SET PARENT NODES FOR ADDED GUI COMPONENTS 							 				  			   |			

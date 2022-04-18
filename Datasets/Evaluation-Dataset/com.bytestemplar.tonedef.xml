@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+<node change-type="text-change" old-text="Release 17" new-text="Release 18">
+	<node node-type="old-component">
+		<node index="1" text="Release 17" resource-id="" class="android.widget.TextView" package="com.bytestemplar.tonedef" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[26,329][1054,377]"/>
+	<node node-type="new-component">
+		<node index="1" text="Release 18" resource-id="" class="android.widget.TextView" package="com.bytestemplar.tonedef" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[26,329][1054,377]"/>
+
+
+<node change-type="text-change" old-text="- Tone playback is now more stable on long presses. (Thanks, tildearrow!)&#xD- Sequence dialing now parses extended DTMF; no longer forces digits-only input. (Thanks, Tomino2112!)&#xD" new-text="- Changes to appease the Play Store - Tone playback is now more stable on long presses. (Thanks, tildearrow!)&#xD- Sequence dialing now parses extended DTMF; no longer forces digits-only input. (Thanks, Tomino2112!)&#xD">
+	<node node-type="old-component">
+		<node index="3" text="- Tone playback is now more stable on long presses. (Thanks, tildearrow!)&#xD- Sequence dialing now parses extended DTMF; no longer forces digits-only input. (Thanks, Tomino2112!)&#xD" resource-id="" class="android.widget.TextView" package="com.bytestemplar.tonedef" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[26,488][1054,822]"/>
+	<node node-type="new-component">
+		<node index="3" text="- Changes to appease the Play Store - Tone playback is now more stable on long presses. (Thanks, tildearrow!)&#xD- Sequence dialing now parses extended DTMF; no longer forces digits-only input. (Thanks, Tomino2112!)&#xD" resource-id="" class="android.widget.TextView" package="com.bytestemplar.tonedef" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[26,488][1054,859]"/>
+

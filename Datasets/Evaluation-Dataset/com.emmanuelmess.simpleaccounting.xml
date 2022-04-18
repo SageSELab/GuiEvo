@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+
+
+<node change-type="component-remove" old-type="TextView">
+	<node node-type="old-component">
+		<node index="0" text="Donate" resource-id="com.emmanuelmess.simpleaccounting:id/title" class="android.widget.TextView" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="true" enabled="false" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[597,233][1028,290]"/>
+
+<node change-type="component-remove" old-type="TextView">
+	<node node-type="old-component">
+		<node index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="true" enabled="false" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[555,199][1070,325]"/>
+
+
+
+
+<node change-type="component-location" old-location="597,359,1028,416" new-location="597,233,1028,290">
+	<node node-type="old-component">
+		<node index="0" text="Settings" resource-id="com.emmanuelmess.simpleaccounting:id/title" class="android.widget.TextView" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[597,359][1028,416]"/>
+	<node node-type="new-component">
+		<node index="0" text="Settings" resource-id="com.emmanuelmess.simpleaccounting:id/title" class="android.widget.TextView" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[597,233][1028,290]"/>
+
+<node change-type="component-location" old-location="555,325,1070,451" new-location="555,325,1070,451">
+	<node node-type="old-component">
+		<node index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[555,325][1070,451]"/>
+	<node node-type="new-component">
+		<node index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[555,325][1070,451]"/>
+
+
+
+<node change-type="component-location" old-location="597,485,1028,542" new-location="597,359,1028,416">
+	<node node-type="old-component">
+		<node index="0" text="Feedback" resource-id="com.emmanuelmess.simpleaccounting:id/title" class="android.widget.TextView" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[597,485][1028,542]"/>
+	<node node-type="new-component">
+		<node index="0" text="Feedback" resource-id="com.emmanuelmess.simpleaccounting:id/title" class="android.widget.TextView" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[597,359][1028,416]"/>
+
+<node change-type="component-location" old-location="555,451,1070,577" new-location="555,325,1070,451">
+	<node node-type="old-component">
+		<node index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[555,451][1070,577]"/>
+	<node node-type="new-component">
+		<node index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.emmanuelmess.simpleaccounting" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[555,325][1070,451]"/>

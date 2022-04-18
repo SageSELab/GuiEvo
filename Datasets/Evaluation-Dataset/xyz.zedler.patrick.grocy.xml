@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+<node change-type="text-change" old-change="1.8.3" new-change="1.8.4">
+	<node node-type="old-component">
+		<node index="1" text="1.8.3" resource-id="" class="android.widget.TextView" package="xyz.zedler.patrick.grocy" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[189,591][1038,648]"/>
+	<node node-type="new-component">
+		<node index="1" text="1.8.4" resource-id="" class="android.widget.TextView" package="xyz.zedler.patrick.grocy" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[189,591][1038,648]"/>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<node change-type="text-change" old-text="Scan lndconnect QR" new-text="Scan lndconnect config">
+	<node node-type="old-component">
+		<node index="0" text="Scan lndconnect QR" resource-id="" class="android.widget.TextView" package="app.zeusln.zeus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[398,1217][775,1282]" />
+	<node node-type="new-component">
+		<node index="0" text="Scan lndconnect config" resource-id="" class="android.widget.TextView" package="app.zeusln.zeus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[367,1217][806,1282]"/>
+
+<node change-type="component-add" new-type="TextView">
+	<node node-type="new-component">
+		<node index="6" text="Locale" resource-id="" class="android.widget.TextView" package="app.zeusln.zeus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[472,1556][608,1607]"/>
+
+
+<node change-type="component-add" new-type="Spinner">
+	<node node-type="new-component">
+		<node index="7" text="Locale" resource-id="" class="android.widget.TextView" package="app.zeusln.zeus" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[472,1607][608,1738]"/>

@@ -1,0 +1,1 @@
+This project will hold the code and associated datasets for the automated GUI evolution approach that will be used to detect changes between GUIs between successive app releases and automatically create a dynamic XML file for the mockup GUI from newer release.

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,697][1079,1159]">
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+			<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+				<node index="0" text="" resource-id="acr.browser.lightning:id/action_bar_root" class="android.widget.FrameLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+					<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+						<node index="0" text="" resource-id="acr.browser.lightning:id/parentPanel" class="android.widget.LinearLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+							<node index="0" text="" resource-id="acr.browser.lightning:id/contentPanel" class="android.widget.FrameLayout" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+								<node index="0" text="" resource-id="acr.browser.lightning:id/select_dialog_listview" class="android.widget.ListView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,1117]">
+									<node index="0" text="Close tab" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,760][1037,928]" />
+									<node index="1" text="Close all tabs" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,928][1037,1096]" />
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>

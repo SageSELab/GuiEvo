@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+<node change-type="color-change" old-color="#ffffff" new-color="#455a64">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="com.app.missednotificationsreminder:id/toolbar" class="android.view.ViewGroup" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[0,63][1080,193]"/>
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="com.app.missednotificationsreminder:id/toolbar" class="android.view.ViewGroup" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[0,63][1080,210]"/>
+
+<node change-type="color-change" old-color="#19a094" new-color="#34dfcf">
+	<node node-type="old-component">
+		<node index="0" text="NOTIFICATIONS SERVICE ACCESS" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,235][1038,382]"/>
+	<node node-type="new-component">
+		<node index="0" text="NOTIFICATIONS SERVICE ACCESS" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,252][1038,399]"/>
+
+<node change-type="color-change" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="The notification service is currently disabled. Press &#34;Manage Access&#34; button, select &#34;Missed Notification Reminder Service&#34; item and enable it. Otherwise the reminder will not work." resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,427][996,710]"/>
+	<node node-type="new-component">
+		<node index="0" text="The notification service is currently disabled. Press &#34;Manage Access&#34; button, select &#34;Missed Notification Reminder Service&#34; item and enable it. Otherwise the reminder will not work." resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,444][996,727]"/>
+
+<node change-type="two-color-change" old-color="#d6d7d7#2c2c2c" new-color="#607d8b#f6f7f8">
+	<node node-type="old-component">
+		<node index="0" text="MANAGE ACCESS" resource-id="" class="android.widget.Button" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,710][996,836]"/>
+	<node node-type="new-component">
+		<node index="0" text="MANAGE ACCESS" resource-id="" class="android.widget.Button" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,727][996,853]"/>
+
+
+
+<node change-type="color-change" old-color="#19a094" new-color="#34dfcf">
+	<node node-type="old-component">
+		<node index="0" text="PERMISSIONS" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,920][1038,1067]"/>
+	<node node-type="new-component">
+		<node index="0" text="PERMISSIONS" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,937][1038,1084]"/>
+
+
+
+<node change-type="color-change" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="The following permissions are required for the app work: &#34;android.permission.READ_EXTERNAL_STORAGE&#34;. Please allow them." resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1112][996,1340]"/>
+	<node node-type="new-component">
+		<node index="0" text="The following permissions are required for the app work: &#34;android.permission.READ_EXTERNAL_STORAGE&#34;. Please allow them." resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1129][996,1357]"/>
+
+<node change-type="two-color-change" old-color="#d6d7d7#2c2c2c" new-color="#607d8b#f6f7f8">
+	<node node-type="old-component">
+		<node index="0" text="GRANT REQUIRED PERMISSIONS" resource-id="" class="android.widget.Button" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1340][996,1466]"/>
+	<node node-type="new-component">
+		<node index="0" text="GRANT REQUIRED PERMISSIONS" resource-id="" class="android.widget.Button" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1357][996,1483]"/>
+
+
+<node change-type="color-change" old-color="#19a094" new-color="#34dfcf">
+	<node node-type="old-component">
+		<node index="0" text="BATTERY OPTIMIZATION" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,1550][1038,1697]"/>
+	<node node-type="new-component">
+		<node index="0" text="BATTERY OPTIMIZATION" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,1567][1038,1714]"/>
+
+
+<node change-type="color-change" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="The Android OS optimizes battery usage for the application. If you experience problems with the reminder work please disable battery optimization for the Missed Notification Reminder application" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1742][996,1794]"/>
+	<node node-type="new-component">
+		<node index="0" text="The Android OS optimizes battery usage for the application. If you experience problems with the reminder work please disable battery optimization for the Missed Notification Reminder application" resource-id="" class="android.widget.TextView" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[84,1759][996,1794]"/>
+
+
+
+<node change-type="color-change" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="android.widget.FrameLayout" class="com.app.missednotificationsreminder" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,252][1038,878]"/>
+
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="android.widget.FrameLayout" class="com.app.missednotificationsreminder" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,252][1038,895]"/>
+
+<node change-type="color-change" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="com.app.missednotificationsreminder:id/toolbar" class="android.view.ViewGroup" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[0,63][1080,193]"/>
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="com.app.missednotificationsreminder:id/toolbar" class="android.view.ViewGroup" package="com.app.missednotificationsreminder" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[0,63][1080,210]"/>
+

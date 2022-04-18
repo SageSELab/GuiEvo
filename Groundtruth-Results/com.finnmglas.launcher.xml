@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+<node change-type="image-change" old-image="image1" new-image="image2">
+	<node node-type="old-component">
+		<node index="2" text="" resource-id="com.finnmglas.launcher:id/tutorial_concept_badge_version" class="android.widget.ImageView" package="com.finnmglas.launcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[168,899][912,1177]"/>
+	<node node-type="new-component">
+		<node index="2" text="" resource-id="com.finnmglas.launcher:id/tutorial_concept_badge_version" class="android.widget.ImageView" package="com.finnmglas.launcher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[168,899][912,1177]"/>

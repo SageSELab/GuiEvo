@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+
+<node change-type="component-location" old-location="211,247,329,298" new-location="751,247,869,298">
+	<node node-type="old-component">
+		<node index="0" text="/R/ALL" resource-id="" class="android.widget.TextView" package="com.aaronhalbert.nosurfforreddit" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[211,247][329,298]"/>
+	<node node-type="new-component">
+		<node index="0" text="/R/ALL" resource-id="" class="android.widget.TextView" package="com.aaronhalbert.nosurfforreddit" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[751,247][869,298]"/>
+
+
+<node change-type="component-location" old-location="650,247,969,298" new-location="110,247,429,298">
+	<node node-type="old-component">
+		<node index="0" text="YOUR SUBREDDITS" resource-id="" class="android.widget.TextView" package="com.aaronhalbert.nosurfforreddit" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[650,247][969,298]"/>
+	<node node-type="new-component">
+		<node index="0" text="YOUR SUBREDDITS" resource-id="" class="android.widget.TextView" package="com.aaronhalbert.nosurfforreddit" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[110,247][429,298]"/>

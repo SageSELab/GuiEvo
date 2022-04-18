@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+title: fix
+<node change-type="component-text" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="headingText" class="android.view.View" package="com.google.android.gms" content-desc="Find your email" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,336][1018,459]"/>
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="headingText" class="android.view.View" package="com.google.android.gms" content-desc="Sign in" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,336][1018,459]"/>
+
+enter your phone...
+<node change-type="component-color" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="old-component">
+		<node index="1" text="" resource-id="headingSubtext" class="android.view.View" package="com.google.android.gms" content-desc="Enter your phone number or recovery email" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,459][1018,543]"/>
+	<node node-type="new-component">
+		<node index="1" text="" resource-id="headingSubtext" class="android.view.View" package="com.google.android.gms" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[63,459][1018,548]"/>
+
+forgot email button
+<node change-type="component-color" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="" class="android.widget.Button" package="com.google.android.gms" content-desc="Forgot email?" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="true" bounds="[63,803][296,845]"/>
+
+create account button
+<node change-type="component-color" old-color="#2c2c2c" new-color="#ffffff">
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="" class="android.widget.Button" package="com.google.android.gms" content-desc="Create account" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,1470][359,1596]"/>

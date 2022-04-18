@@ -1,6 +1,6 @@
 import csv
 from bs4 import BeautifulSoup
-import xml_map
+import XML_Builder.xml_map
 
 
 

@@ -3,13 +3,13 @@ import glob
 import os
 import pathlib
 import cv2
-import create_csvfile as csv_file
-import xml_map
-import boundary_retrieval as node_bounds
-import layout_change_detector as lcd
-import resource_change_detector as rcd
-import create_dynxml as generatexml
-import tag_parenthood
+import XML_Builder.create_csvfile as csv_file
+import XML_Builder.xml_map as xml_map
+import XML_Builder.boundary_retrieval as node_bounds
+import Layout_Change_Detection.layout_change_detector as lcd
+import Resource_Change_Detection.resource_change_detector as rcd
+import XML_Builder.create_dynxml as generatexml
+import XML_Builder.tag_parenthood as tag_parenthood
 
 
 
@@ -39,7 +39,6 @@ def	record_resource_change(root_directory, old_png, new_png, info_dict, old_comp
 
 #this function will record any changes in the text components
 def	record_text_change(old_xml, old_png, new_png, info_dict, tree, old_comp_boundaries):
-	
 	records = None
 	return records
 

@@ -5,8 +5,8 @@ import imutils
 import os
 import copy
 import csv  
-import layout_change_detector as lcd
-import redrawClassify as comp_label_detector
+import Layout_Change_Detection.layout_change_detector as lcd
+import Resource_Change_Detection.redrawClassify as comp_label_detector
 import pandas as pd
 import itertools 
 

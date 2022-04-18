@@ -4,6 +4,9 @@
 import xml.etree.ElementTree as ET
 import numpy as np
 
+
+
+
 component_list = []	#list of nodes
 	
 #https://stackoverflow.com/questions/15748528/python-how-to-determine-hierarchy-level-of-parsed-xml-elements

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<root>
+
+	<node change-type="component-add" new-location="TextView">
+		<node node-type="new-component">
+			<node index="0" text="Close browser" resource-id="acr.browser.lightning:id/dialog_title" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[122,672][957,806]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="42,739,1037,865" new-location="122,806,957,932">
+		<node node-type="old-component">
+			<node index="0" text="Close all tabs" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,739][1037,865]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="2" text="Close all tabs" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[122,1058][957,1184]"/>
+		</node>
+	</node>
+
+	<node change-type="component-remove" new-type="TextView">
+		<node node-type="new-component">
+			<node index="2" text="Close tab" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,991][1037,1117]"/>
+		</node>
+	</node>
+
+
+
+
+	<node change-type="component-add" new-type="TextView">
+		<node node-type="new-component">
+			<node index="2" text="Close current tab" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[122,806][957,932]"/>
+		</node>
+	</node>
+
+
+
+	<node change-type="component-location" old-location="42,865,1037,991" new-location="122,932,957,1058">
+		<node node-type="old-component">
+			<node index="1" text="Close other tabs" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,865][1037,991]"/>
+		</node>
+
+		<node node-type="new-component">
+			<node index="1" text="Close other tabs" resource-id="android:id/text1" class="android.widget.TextView" package="acr.browser.lightning" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[122,932][957,1058]"/>
+		</node>
+	</node>
+
+</root>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<root>
+	<node change-type="component-add" new-type="TextView">
+		<node node-type="new-component">
+			<node index="0" text="Start service when the app opens!" resource-id="com.gianlu.aria2android:id/mp_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1063][698,1120]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-add" new-type="TextView">
+		<node node-type="new-component">
+			<node index="0" text="The service will start when the app is opened." resource-id="com.gianlu.aria2android:id/mp_summary" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1125][816,1176]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-add" new-type="CheckBox">
+		<node node-type="new-component">
+			<node index="1" text="" resource-id="com.gianlu.aria2android:id/mp_checkable" class="android.widget.CheckBox" package="com.gianlu.aria2android" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[885,1057][1011,1183]"/>
+		</node>
+	</node>
+	        
+
+	<node change-type="component-location" old-location="69,1057,377,1114" new-location="69,1267,377,1324">
+		<node node-type="old-component">
+			<node index="0" text="Custom options" resource-id="com.gianlu.aria2android:id/mp_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1057][377,1114]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="Custom options" resource-id="com.gianlu.aria2android:id/mp_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1267][377,1324]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="69,1119,521,1170" new-location="69,1329,521,1380">
+		<node node-type="old-component">
+			<node index="1" text="You have 0 custom options." resource-id="com.gianlu.aria2android:id/mp_summary" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1119][521,1170]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="1" text="You have 0 custom options." resource-id="com.gianlu.aria2android:id/mp_summary" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1329][521,1380]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="27,1313,182,1364" new-location="27,1523,182,1574">
+		<node node-type="old-component">
+			<node index="0" text="RPC" resource-id="com.gianlu.aria2android:id/mpc_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1313][182,1364]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="RPC" resource-id="com.gianlu.aria2android:id/mpc_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1523][182,1574]"/>
+		</node>
+	</node>
+
+
+
+	<node change-type="component-location" old-location="69,1417,247,1474" new-location="69,1627,247,1684">
+		<node node-type="old-component">
+			<node index="0" text="RPC port" resource-id="com.gianlu.aria2android:id/mpc_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1417][247,1474]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="RPC port" resource-id="com.gianlu.aria2android:id/mpc_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1627][247,1684]"/>
+		</node>
+	</node>
+
+
+
+	<node change-type="component-location" old-location="927,1420,1011,1471" new-location="927,1630,1011,1681">
+		<node node-type="old-component">
+			<node index="1" text="6800" resource-id="com.gianlu.aria2android:id/mp_right_value" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[927,1420][1011,1471]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="1" text="6800" resource-id="com.gianlu.aria2android:id/mp_right_value" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[927,1630][1011,1681]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-remove" old-type="TextView">
+		<node node-type="old-component">
+			<node index="1" text="RPC token" resource-id="com.gianlu.aria2android:id/mp_title" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1558][273,1615]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-remove" old-type="TextView">
+		<node node-type="old-component">
+			<node index="1" text="aria2" resource-id="com.gianlu.aria2android:id/mp_right_value" class="android.widget.TextView" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[928,1561][1011,1612]"/>
+		</node>
+	</node>
+
+
+
+	<node change-type="component-size" old-location="27,274,1053,1244" new-location="27,274,1053,1454">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.gianlu.aria2android:id/mpc_container" class="android.widget.LinearLayout" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,274][1053,1244]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.gianlu.aria2android:id/mpc_container" class="android.widget.LinearLayout" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,274][1053,1454]"/>
+		</node>
+	</node>
+
+
+
+	<node change-type="component-size" old-location="27,1281,1053,1794" new-location="27,1491,1053,1794">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.gianlu.aria2android:id/mpc_container" class="android.widget.LinearLayout" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,274][1053,1244]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.gianlu.aria2android:id/mpc_container" class="android.widget.LinearLayout" package="com.gianlu.aria2android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,274][1053,1454]"/>
+		</node>
+	</node>
+</root>

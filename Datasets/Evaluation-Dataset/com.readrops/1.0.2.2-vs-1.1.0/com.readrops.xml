@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<root>
+	<node change-type="component-add" new-change="TextView">
+		<node node-type="new-component">
+			<node index="3" text="Or" resource-id="com.readrops.app:id/account_type_or" class="android.widget.TextView" package="com.readrops.app" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[510,1268][570,1346]"/>
+		</node>
+	</node>
+
+	<node change-type="component-add" new-change="Button">
+		<node node-type="new-component">
+			<node index="4" text="OPML IMPORT" resource-id="com.readrops.app:id/account_type_opml_import" class="android.widget.Button" package="com.readrops.app" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[386,1346][695,1472]"/>
+		</node>
+	</node>
+</root>

@@ -20,8 +20,8 @@
 
 
 <node change-type="component-add" new-type="TextView">
-		<node node-type="new-component">
-		    <node index="1" text="Attempt to invoke virtual method 'android.bluetooth.IBluetoothManager android.bluetooth.BluetoothAdapter.getBluetoothManager()' on a null object reference" resource-id="be.mygod.vpnhotspot:id/text" class="android.widget.TextView" package="be.mygod.vpnhotspot" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[252,921][916,1144]"/>
+	<node node-type="new-component">
+	    <node index="1" text="Attempt to invoke virtual method 'android.bluetooth.IBluetoothManager android.bluetooth.BluetoothAdapter.getBluetoothManager()' on a null object reference" resource-id="be.mygod.vpnhotspot:id/text" class="android.widget.TextView" package="be.mygod.vpnhotspot" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[252,921][916,1144]"/>
 
 
 <node change-type="component-location" old-location="252,1026,916,1083" new-location="252,1235,916,1292">

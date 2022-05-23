@@ -1,0 +1,86 @@
+<html lang="en" class="no-js"><head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GCAT - GUI Change Analysis Tool</title>
+        <link rel="stylesheet" type="text/css" href="res/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="res/css/landingPage.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <section>
+                <img src="../html/res/images/whitegCatLogo.png"/>
+                <h1>G-CAT</h1>
+                <p>GUI Change Analysis Tool</p>
+            </section>
+            <div class="file-input" >
+                <div class="inputDiv">
+                <label class="input-name">
+                    <h2>Previous image</h2>
+                    <span id="prevImagespan"></span>
+                    <input type="file" name="previousImage">
+                </label>
+                </div>
+                <div class="inputDiv">
+                <label class="input-name">
+                    <h2>New image</h2>
+                    <span id="newImagespan"></span>
+                    <input type="file" name="newImage">
+                </label>
+                </div>
+                <div class="inputDiv">
+                <label class="input-name">
+                    <h2>Previous xml</h2>
+                    <span id="prevXmlspan"></span>
+                    <input type="file" name="previousXml">
+                </label>
+                </div>
+                <div class="inputDiv">
+                <label class="input-name">
+                    <h2>New xml</h2>
+                    <span id="newXmlspan"></span>
+                    <input type="file" name="newXml">
+                </label>
+                </div>
+            </div>
+            <nav class="codrops-demos">
+                <a class="run" href="index3.html">Run G-Cat</a>
+            </nav>
+            <nav id="bt-menu" class="bt-menu bt-menu-close">
+                <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+                <ul>
+                    <li><a href="../html/Full-Report.html" class="bt-icon icon-user-outline">Changes Summary</a></li>
+                    <li><a href="../html/Difference-Tree.html" class="bt-icon icon-bubble">View Trees</a></li>
+                </ul>
+                <div class="bt-overlay"></div></nav>
+        </div><!-- /container -->
+
+        <!--Add file name if selected. -->
+        <script>
+            document.querySelector('input[name="previousImage"]').addEventListener("change", function(){
+		var element = document.getElementById('prevImagespan');
+                var file = this.value.split(/[\\\/]/).pop();
+                element.innerHTML = file;
+            });
+            document.querySelector('input[name="newImage"]').addEventListener("change", function(){
+		var element = document.getElementById('newImagespan');
+                var file = this.value.split(/[\\\/]/).pop();
+                element.innerHTML = file;
+            });
+            document.querySelector('input[name="previousXml"]').addEventListener("change", function(){
+		var element = document.getElementById('prevXmlspan');
+                var file = this.value.split(/[\\\/]/).pop();
+                element.innerHTML = file;
+            });
+            document.querySelector('input[name="newXml"]').addEventListener("change", function(){
+		var element = document.getElementById('newXmlspan');
+                var file = this.value.split(/[\\\/]/).pop();
+                element.innerHTML = file;
+            });
+        </script>
+        <script src="res/js/classie.js"></script>
+        <script src="res/js/borderMenu.js"></script>
+
+    </body>
+</html>

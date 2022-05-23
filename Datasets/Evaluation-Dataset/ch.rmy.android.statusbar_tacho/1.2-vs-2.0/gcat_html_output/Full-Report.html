@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Format for summary taken from the following link with copyright information:
+Copyright (c) 2017 by Joseph Victory (https://codepen.io/j-w-v/pen/DIcJx)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>G-Cat Full Report</title>
+        <link rel="stylesheet" href="res/css/summary.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+        <script>var runOnLoad = function (c, o, d, e) {
+                function x() {
+                    for (e = 1; c.length; )
+                        c.shift()()
+                }
+                o[d] ? (document[d]('DOMContentLoaded', x, 0), o[d]('load', x, 0)) : o.attachEvent('onload', x);
+                return function (t) {
+                    e ? o.setTimeout(t, 0) : c.push(t)
+                }
+            }([], window, 'addEventListener');</script>
+
+        <script type="text/javascript" src="res/js/CollapsibleLists.src.js">
+
+        </script>
+        <script type="text/javascript">
+            runOnLoad(function () {
+                CollapsibleLists.apply(); });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="whole">
+                <div class="type">
+                    <p>Previous</p>
+                </div>
+                <div class="plan">
+                    <img src="res\images\prevImage.jpg" alt="">
+                </div>
+            </div>
+            <div class="whole">
+                <div class="type">
+                    <p>Changes</p>
+                </div>
+                <div class="plan">
+                    <img src="res\images\Changes-augmented.png" alt="">
+                </div>
+            </div>
+            <div class="whole ">
+                <div class="type">
+                    <p>New</p>
+                </div>
+                <div class="plan">
+                    <img src="res\images\newImage.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="login_c">
+            <div class="type login"><p>Summary</p></div>
+            <div id="shortSummary">There were a few changes relative to the number of components in this release. These changes made mild differences to the appearance of the GUI. There were font and text changes to components.</div>
+        </div>
+        <div class="login_c">
+            <div class="type login">
+              <p style="margin:0;float: left; width: 20%;">previous</p>
+              <p style="margin:0; float: left; width: 60%;">Detailed Changes</p>
+              <p style="margin:0; float: left; width: 20%;">new</p>
+            </div>
+            <div id="target">
+                <dl>
+                    <dt><a href = "#accordion1" aria-expanded = "false" aria-controls = "accordion1" class="accordion-title accordionTitle js-accordionTrigger">The TextView at location (954,73) has changed font.</a> </dt> <dd class="accordion-content accordionItem is-collapsed" id = "accordion1" aria-hidden = "true"><div style="display: flex;"></div><img class="croppedImage" src="res\images\prev\15491924.jpg"></img><img class="croppedImage" src="res\images\new\28636745.jpg"></img></dd><dt><a href = "#accordion1" aria-expanded = "false" aria-controls = "accordion1" class="accordion-title accordionTitle js-accordionTrigger">The TextView at location (42,923) has changed text from 'km/h' to 'm/s' </a> </dt> <dd class="accordion-content accordionItem is-collapsed" id = "accordion1" aria-hidden = "true"><div style="display: flex;"></div><img class="croppedImage" src="res\images\prev\2513828.jpg"></img><img class="croppedImage" src="res\images\new\8351826.jpg"></img></dd>
+                </dl>
+            </div>
+        </div>
+        <div>
+            <div id="treeHeaderDiv" class="type login"><p>Maximum Common Spanning Tree</p></div>
+            <ul id="commonTreeContainer" class="collapsibleList m-wrap" >
+                <div id="commonTree">&zwnj;</div><li style="color:white;" class="m-wrap"><span class= 0> Level 0: Start Pos: 0,0 Type(class): FrameLayout ID:  Name:  Type(class): FrameLayout Rectangle: 1080,1794
+</span><ul><li style="color:white;" class="m-wrap"><span class= 1> Level 1: Start Pos: 0,63 Type(class): ViewGroup ID:  Name:  Type(class): ViewGroup Rectangle: 1080,1731
+</span><ul><li style="color:white;" class="m-wrap"> Level 2: Start Pos: 0,63 Type(class): ViewGroup ID: ch.rmy.android.statusbar_tacho:id/toolbar Name:  Type(class): ViewGroup Rectangle: 1080,147
+<ul><li style="color:white;" class="m-wrap"> Level 3: Start Pos: 42,101 Type(class): TextView ID:  Name: Speedometer Type(class): TextView Rectangle: 317,71
+</li></ul></li></ul><ul><li style="color:white;" class="m-wrap"> Level 2: Start Pos: 0,210 Type(class): RelativeLayout ID:  Name:  Type(class): RelativeLayout Rectangle: 1080,1584
+<ul><li style="color:white;" class="m-wrap"> Level 3: Start Pos: 0,210 Type(class): LinearLayout ID:  Name:  Type(class): LinearLayout Rectangle: 1080,773
+<ul><li style="color:white;" class="m-wrap"> Level 4: Start Pos: 42,252 Type(class): View ID: ch.rmy.android.statusbar_tacho:id/speedGauge Name:  Type(class): View Rectangle: 996,473
+</li></ul><ul><li style="color:white;" class="m-wrap"> Level 4: Start Pos: 0,767 Type(class): LinearLayout ID:  Name:  Type(class): LinearLayout Rectangle: 1080,216
+<ul><li style="color:white;" class="m-wrap"> Level 5: Start Pos: 42,767 Type(class): TextView ID: ch.rmy.android.statusbar_tacho:id/speedText Name: --- Type(class): TextView Rectangle: 996,127
+</li></ul></li></ul></li></ul><ul><li style="color:white;" class="m-wrap"> Level 3: Start Pos: 42,1605 Type(class): ToggleButton ID: ch.rmy.android.statusbar_tacho:id/toggleButton Name: SPEEDOMETER DISABLED Type(class): ToggleButton Rectangle: 996,168
+</li></ul></li></ul></li></ul></li><div class="buffer"></div>
+            </ul>
+        </div>
+        <div class="summary-button">
+            <a id="treeNav" href="Difference-Tree.html">View Trees</a>
+        </div>
+    </body>
+    <script src="res/js/cloudflare.min.js"></script>
+    <script  src="res/js/index.js"></script>
+</html>

@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 
+<node change-type="component-size" old-size="954,73,1080,199" new-size="954,73,1080,199">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="ch.rmy.android.statusbar_tacho:id/action_github" class="android.widget.TextView" package="ch.rmy.android.statusbar_tacho" content-desc="View on Github" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[954,73][1080,199]" />
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="ch.rmy.android.statusbar_tacho:id/action_github" class="android.widget.TextView" package="ch.rmy.android.statusbar_tacho" content-desc="View on Github" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[954,73][1080,199]" />
+
 
 
 <node change-type="image-change" old-type="View" new-type="View">
@@ -9,11 +15,8 @@
 		<node index="0" text="" resource-id="ch.rmy.android.statusbar_tacho:id/speedGauge" class="android.view.View" package="ch.rmy.android.statusbar_tacho" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,252][1038,725]"/>
 
 
-<node change-type="component-remove" old-type="TextView">
+<node change-type="text-change" old-text="km/h" new-text = "m/s">
 	<node node-type="old-component">
 		<node index="0" text="km/h" resource-id="android:id/text1" class="android.widget.TextView" package="ch.rmy.android.statusbar_tacho" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,923][912,980]"/>
-
-<node change-type="component-add" new-type="TextView">
 	<node node-type="new-component">
 		<node index="0" text="m/s" resource-id="android:id/text1" class="android.widget.TextView" package="ch.rmy.android.statusbar_tacho" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[42,923][912,980]"/>
-

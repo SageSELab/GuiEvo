@@ -3,7 +3,6 @@
 
 <node change-type="image-change" old-image="image1" new-image="image2">
 	<node node-type="old-component">
-		<node index="0" text="" resource-id="com.dimension.tessercube:id/setup_wizard" class="android.widget.VideoView" package="com.dimension.tessercube" content-desc="with Gesture Typing" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[45,543][736,1136]"/>
+		<node index="0" text="" resource-id="com.dimension.tessercube:id/setup_welcome_video" class="android.widget.VideoView" package="com.dimension.tessercube" content-desc="with Gesture Typing" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[45,543][736,1136]" />
 	<node node-type="new-component">
-		<node index="0" text="" resource-id="com.dimension.tessercube:id/setup_wizard" class="android.widget.VideoView" package="com.dimension.tessercube" content-desc="with Gesture Typing" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[45,543][736,1136]"/>
-
+		<node index="0" text="" resource-id="com.dimension.tessercube:id/setup_welcome_video" class="android.widget.VideoView" package="com.dimension.tessercube" content-desc="with Gesture Typing" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[45,543][736,1136]" />

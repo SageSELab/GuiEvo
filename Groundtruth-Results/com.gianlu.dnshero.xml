@@ -1,82 +1,88 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 
 
-<node change-type="text-change" old-text="1.6.2" new-text="1.6.3">
+<node change-type="component-location" old-location="69,1242,1011,1293" new-location="69,1368,1011,1419">
 	<node node-type="old-component">
-		<node index="1" text="1.6.2" resource-id="com.gianlu.dnshero:id/mal_action_item_subtext" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,620][1011,671]"/>
+		<node index="0" text="Preferences" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1242][1011,1293]" />
 	<node node-type="new-component">
-		<node index="1" text="1.6.3" resource-id="com.gianlu.dnshero:id/mal_action_item_subtext" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,620][1011,671]"/>
+		<node index="0" text="Preferences" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1368][1011,1419]" />
 
-<node change-type="component-add" new-type="TextView">
+<node change-type="component-location" old-location="90,1356,153,1440" new-location="90,1482,153,1566">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1356][153,1440]" />
 	<node node-type="new-component">
-		<node index="0" text="Translators" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1176][1011,1233]"/>
+		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1482][153,1566]" />
 
+		
+<node change-type="component-location" old-location="189,101,487,172" new-location="189,101,487,172">
+	<node node-type="old-component">
+		<node index="1" text="Preferences" resource-id="" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[189,101][487,172]" />
+	<node node-type="new-component">
+		<node index="1" text="Preferences" resource-id="" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[189,101][487,172]" />
 
+		
 
 <node change-type="component-add" new-type="ImageView">
 	<node node-type="new-component">
-		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1163][153,1247]"/>
+		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1163][153,1247]" />
 
 
+<node change-type="component-location" old-location="216,1369,1011,1426" new-location="216,1495,1011,1552">
+	<node node-type="old-component">
+		<node index="0" text="General" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1369][1011,1426]" />
+	<node node-type="new-component">
+		<node index="0" text="General" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1495][1011,1552]" />
+
+
+
+<node change-type="component-add" new-type="TextView">
+	<node node-type="new-component">
+		<node index="0" text="Translators" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1176][1011,1233]" />
+		
+<node change-type="component-location" old-location="216,1495,1011,1552" new-location="216,1621,1011,1678">
+	<node node-type="old-component">
+		<node index="0" text="Favorites" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1495][1011,1552]" />
+	<node node-type="new-component">
+		<node index="0" text="Favorites" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1621][1011,1678]" />
+
+
+<node change-type="component-location" old-location="90,1482,153,1566" new-location="90,1608,153,1692">
+	<node node-type="old-component">
+		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1482][153,1566]" />
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1608][153,1692]" />
+
+<node change-type="text-change" old-text="1.6.2" new-text="1.6.3">
+	<node node-type="old-component">
+		<node index="1" text="1.6.2" resource-id="com.gianlu.dnshero:id/mal_action_item_subtext" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,620][1011,671]" />
+	<node node-type="new-component">
+		<node index="1" text="1.6.3" resource-id="com.gianlu.dnshero:id/mal_action_item_subtext" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,620][1011,671]" />
+
+<node change-type="component-remove" old-type="TextView">
+	<node node-type="old-component">
+		<node index="0" text="Rate/donate" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1687][1011,1738]" />
 
 
 <node change-type="component-size" old-size="27,239,1053,1163" new-size="27,239,1053,1289">
 	<node node-type="old-component">
-		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,239][1053,1163]"/>
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,239][1053,1163]">
 	<node node-type="new-component">
-		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,239][1053,1289]"/>
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,239][1053,1289]">
 
 
 
 <node change-type="component-location" old-location="27,1200,1053,1608" new-location="27,1326,1053,1734">
 	<node node-type="old-component">
-		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1200][1053,1608]"/>
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1200][1053,1608]">
+	<node node-type="new-component">
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1326][1053,1734]">
+
+
+
+<node change-type="component-add" new-location="27,1771,1053,1794">
 	<node node-type="new-component">
 		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1326][1053,1734]"/>
 
-
-
-
-<node change-type="component-location" old-location="69,1242,1011,1293" new-location="69,1368,1011,1419">
-	<node node-type="old-component">
-		<node index="0" text="Preferences" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1242][1011,1293]"/>
-	<node node-type="new-component">
-		<node index="0" text="Preferences" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1368][1011,1419]"/>
-
-
-<node change-type="component-location" old-location="216,1369,1011,1426" new-location="216,1495,1011,1552">
-	<node node-type="old-component">
-		<node index="0" text="General" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1369][1011,1426]"/>
-	<node node-type="new-component">
-		<node index="0" text="General" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1495][1011,1552]"/>
-
-
-<node change-type="component-location" old-location="90,1356,153,1440" new-location="90,1482,153,1566">
-	<node node-type="old-component">
-		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1356][153,1440]"/>
-	<node node-type="new-component">
-		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1482][153,1566]"/>
-
-<node change-type="component-location" old-location="90,1482,153,1566" new-location="90,1608,153,1692">
-	<node node-type="old-component">
-		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1482][153,1566]"/>
-	<node node-type="new-component">
-		<node index="0" text="" resource-id="com.gianlu.dnshero:id/mal_item_image" class="android.widget.ImageView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[90,1608][153,1692]"/>
-
-
-<node change-type="component-location" old-location="216,1495,1011,1552" new-location="216,1621,1011,1678">
-	<node node-type="old-component">
-		<node index="0" text="Favorites" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1495][1011,1552]"/>
-	<node node-type="new-component">
-		<node index="0" text="Favorites" resource-id="com.gianlu.dnshero:id/mal_item_text" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[216,1621][1011,1678]"/>
-
-
-<node change-type="component-location" old-location="27,1645,1053,1794" new-location="27,1771,1053,1794">
-	<node node-type="old-component">
-		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1200][1053,1608]"/>
+<node change-type="component-remove" old-location="27,1645,1053,1794">
 	<node node-type="new-component">
 		<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[27,1326][1053,1734]"/>
-
-<node change-type="component-remove" old-type="TextView">
-	<node node-type="old-component">
-		<node index="0" text="Rate/donate" resource-id="com.gianlu.dnshero:id/mal_list_card_title" class="android.widget.TextView" package="com.gianlu.dnshero" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[69,1687][1011,1738]"/>

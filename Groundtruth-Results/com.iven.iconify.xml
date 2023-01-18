@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-
-
-<node change-type="text-change" old-change="v1.8.8" new-change="1.9.0">
-	<node node-type="old-component">
-		<node index="1" text="v1.8.8" resource-id="com.iven.iconify:id/version" class="android.widget.TextView" package="com.iven.iconify" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1546][165,1647]"/>
-	<node node-type="new-component">
-		<node index="1" text="1.9.0" resource-id="com.iven.iconify:id/version" class="android.widget.TextView" package="com.iven.iconify" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1548][163,1647]"/>

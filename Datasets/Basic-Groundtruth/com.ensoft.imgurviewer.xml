@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<root>
+
+	<node change-type="component-location" old-location="28,180,1052,1677" new-location="28,63,1052,1793">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[28,180][1052,1677]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[28,63][1052,1793]"/>
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,222,1010,1635" new-location="70,105,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,1751]"/>
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,222,1010,1635" new-location="70,105,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,1751]"/>
+		</node>
+	</node>
+	
+	<node change-type="component-location" old-location="70,222,1010,1635" new-location="70,105,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/action_bar_root" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,1751]"/>
+		</node>
+	</node>
+	
+	<node change-type="component-location" old-location="70,222,1010,1635" new-location="70,105,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,1751]"/>
+		</node>
+	</node>
+	
+	<node change-type="component-location" old-location="70,222,1010,1635" new-location="70,105,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/parentPanel" class="androidx.appcompat.widget.LinearLayoutCompat" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/parentPanel" class="androidx.appcompat.widget.LinearLayoutCompat" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,1751]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,222,1010,353" new-location="70,105,1010,236">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/topPanel" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,353]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/topPanel" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,236]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="133,269,947,332" new-location="133,152,947,215">
+		<node node-type="old-component">
+			<node index="0" text="Grid View Image Scale Type" resource-id="com.ensoft.imgurviewer:id/alertTitle" class="android.widget.TextView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[133,269][947,332]" />
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="Grid View Image Scale Type" resource-id="com.ensoft.imgurviewer:id/alertTitle" class="android.widget.TextView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[133,152][947,215]" />
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,353,1010,1487" new-location="70,236,1010,1603">
+		<node node-type="old-component">
+			<node index="1" text="" resource-id="com.ensoft.imgurviewer:id/contentPanel" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,353][1010,1487]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="1" text="" resource-id="com.ensoft.imgurviewer:id/contentPanel" class="android.widget.FrameLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,236][1010,1603]"/>
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,353,1010,1487" new-location="70,236,1010,1603">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/select_dialog_listview" class="android.widget.ListView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,353][1010,1487]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/select_dialog_listview" class="android.widget.ListView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" bounds="[70,236][1010,1603]"/>
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,353,1010,479" new-location="70,236,1010,343">
+		<node node-type="old-component">
+			<node index="0" text="FIT XY" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,353][1010,479]" />
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="FIT XY" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,236][1010,343]" />
+		</node>
+	</node>
+
+	<node change-type="component-add" new-type="CheckedTextView">
+		<node node-type="new-component">
+			<node index="1" text="FIT X" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,343][1010,469]" />
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,983,1010,1109" new-location="70,1099,1010,1225">
+		<node node-type="old-component">
+			<node index="5" text="CENTER INSIDE" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="true" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,983][1010,1109]" />
+		</node>
+		<node node-type="new-component">
+			<node index="7" text="CENTER INSIDE" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1099][1010,1225]" />
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,731,1010,857" new-location="70,847,1010,973">
+		<node node-type="old-component">
+			<node index="3" text="FIT END" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,731][1010,857]" />
+		</node>
+		<node node-type="new-component">
+			<node index="5" text="FIT END" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,847][1010,973]" />
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,605,1010,731" new-location="70,721,1010,847">
+		<node node-type="old-component">
+			<node index="2" text="FIT CENTER" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,605][1010,731]" />
+		</node>
+		<node node-type="new-component">
+			<node index="4" text="FIT CENTER" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="true" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,721][1010,847]" />
+		</node>
+	</node>
+
+
+
+
+
+	<node change-type="component-location" old-location="70,479,1010,605" new-location="70,595,1010,721">
+		<node node-type="old-component">
+			<node index="1" text="FIT START" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,479][1010,605]" />
+		</node>
+		<node node-type="new-component">
+			<node index="3" text="FIT START" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,595][1010,721]" />
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,222,1010,332" new-location="70,105,1010,215">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/title_template" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,222][1010,332]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="com.ensoft.imgurviewer:id/title_template" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,105][1010,215]"/>
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,1361,1010,1487" new-location="70,1477,1010,1603">
+		<node node-type="old-component">
+			<node index="8" text="FIT BOTTOM START" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1361][1010,1487]" />
+		</node>
+		<node node-type="new-component">
+			<node index="10" text="FIT BOTTOM START" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1477][1010,1603]" />
+		</node>
+	</node>
+
+
+
+	<node change-type="component-add" new-type="CheckedTextView">
+		<node node-type="new-component">
+			<node index="2" text="FIT Y" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,469][1010,595]" />
+		</node>
+	</node>
+
+
+
+	<node change-type="component-location" old-location="70,1235,1010,1361" new-location="70,1351,1010,1477">
+		<node node-type="old-component">
+			<node index="7" text="FOCUS CROP" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1235][1010,1361]" />
+		</node>
+		<node node-type="new-component">
+			<node index="9" text="FOCUS CROP" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1351][1010,1477]" />
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,1109,1010,1235" new-location="70,1225,1010,1351">
+		<node node-type="old-component">
+			<node index="6" text="CENTER CROP" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1109][1010,1235]" />
+		</node>
+		<node node-type="new-component">
+			<node index="8" text="CENTER CROP" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1225][1010,1351]" />
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="776,1498,978,1624" new-location="776,1614,978,1740">
+		<node node-type="old-component">
+			<node index="0" text="CANCEL" resource-id="android:id/button2" class="android.widget.Button" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[776,1498][978,1624]" />
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="CANCEL" resource-id="android:id/button2" class="android.widget.Button" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[776,1614][978,1740]" />
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,857,1010,983" new-location="70,973,1010,1099">
+		<node node-type="old-component">
+			<node index="4" text="CENTER" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,857][1010,983]" />
+		</node>
+		<node node-type="new-component">
+			<node index="6" text="CENTER" resource-id="android:id/text1" class="android.widget.CheckedTextView" package="com.ensoft.imgurviewer" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,973][1010,1099]" />
+		</node>
+	</node>
+			
+
+	<node change-type="component-add" new-type="View">
+		<node node-type="new-component">
+			<node index="1" text="" resource-id="com.ensoft.imgurviewer:id/titleDividerNoCustom" class="android.view.View" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,215][1010,236]" />
+		</node>
+	</node>
+
+
+	<node change-type="component-location" old-location="70,1487,1010,1635" new-location="70,1603,1010,1751">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1487][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1603][1010,1751]"/>
+		</node>
+	</node>
+
+	<node change-type="component-location" old-location="70,1487,1010,1635" new-location="70,1603,1010,1751">
+		<node node-type="old-component">
+			<node index="2" text="" resource-id="com.ensoft.imgurviewer:id/buttonPanel" class="android.widget.ScrollView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1487][1010,1635]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="2" text="" resource-id="com.ensoft.imgurviewer:id/buttonPanel" class="android.widget.ScrollView" package="com.ensoft.imgurviewer" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[70,1603][1010,1751]"/>
+		</node>
+	</node>
+</root>

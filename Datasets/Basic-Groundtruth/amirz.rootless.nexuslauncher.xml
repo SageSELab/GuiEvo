@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<root>
+	<node change-type="image-change" old-image="image1" new-image="image2">
+		<node node-type="old-component">
+			<node index="1" text="SHORTCUTS" resource-id="amirz.rootless.nexuslauncher:id/widget_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[413,1479][667,1659]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="1" text="WIDGETS" resource-id="amirz.rootless.nexuslauncher:id/widget_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[413,1479][667,1659]"/>
+		</node>
+	</node>
+	<node change-type="component-location" old-location ="364,378,717,607" new-location = "364,355,717,561">
+		<node node-type="old-component">
+			<node index="0" text="Tuesday, Aug 10" resource-id="amirz.rootless.nexuslauncher:id/clock" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="Tuesday, Aug 10" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[364,378][717,607]" />
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="Tuesday, Aug 10" resource-id="amirz.rootless.nexuslauncher:id/clock" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="Tuesday, Aug 10" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[364,355][717,561]" />
+		</node>
+	</node>
+	<node change-type="component-location" old-location ="187,378,893,607" new-location = "187,355,893,561">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="amirz.rootless.nexuslauncher:id/search_container_workspace" class="android.widget.FrameLayout" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[187,378][893,607]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="amirz.rootless.nexuslauncher:id/search_container_workspace" class="android.widget.FrameLayout" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[187,355][893,561]"/>
+		</node>
+	</node>
+	<node change-type="component-location" old-location ="364,378,717,607" new-location = "364,355,717,561">
+		<node node-type="old-component">
+			<node index="0" text="" resource-id="amirz.rootless.nexuslauncher:id/smartspace_content" class="android.widget.LinearLayout" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[364,378][717,607]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="" resource-id="amirz.rootless.nexuslauncher:id/smartspace_content" class="android.widget.LinearLayout" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[364,355][717,561]"/>
+		</node>
+	</node>
+	<node change-type="multi-color-change" old-color="#52435d#71446e#af7a92" new-color="#200e30#642958#b07d95">
+	    <node node-type="old-component">
+			<node index="0" text="WALLPAPERS" resource-id="amirz.rootless.nexuslauncher:id/wallpaper_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[159,1479][413,1659]" />
+		</node>
+	    <node node-type="new-component">
+			<node index="0" text="WALLPAPERS" resource-id="amirz.rootless.nexuslauncher:id/wallpaper_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[159,1479][413,1659]" />
+		</node>
+	</node>
+	<node change-type="multi-color-change" old-color="#52435d#71446e#af7a92" new-color="#200e30#642958#b07d95">
+	    <node node-type="old-component">
+			<node index="2" text="HOME SETTINGS" resource-id="amirz.rootless.nexuslauncher:id/settings_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[667,1479][921,1659]" />
+		</node>
+	    <node node-type="new-component">
+			<node index="2" text="HOME SETTINGS" resource-id="amirz.rootless.nexuslauncher:id/settings_button" class="android.widget.TextView" package="amirz.rootless.nexuslauncher" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[667,1479][921,1659]" />
+		</node>
+	</node>
+</root>

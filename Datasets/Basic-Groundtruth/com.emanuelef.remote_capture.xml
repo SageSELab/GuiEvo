@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<root>
+	<node change-type="text-change" old-text="PCAPdroid v1.3.6" new-text="PCAPdroid v1.3.7">
+		<node node-type="old-component">
+			<node index="0" text="PCAPdroid v1.3.6" resource-id="com.emanuelef.remote_capture:id/app_version" class="android.widget.TextView" package="com.emanuelef.remote_capture" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[329,617][751,688]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="0" text="PCAPdroid v1.3.7" resource-id="com.emanuelef.remote_capture:id/app_version" class="android.widget.TextView" package="com.emanuelef.remote_capture" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[329,617][751,688]"/>
+		</node>
+	</node>
+</root>

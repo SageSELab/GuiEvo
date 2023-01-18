@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-
-
-<node change-type="text-change" old-text="Version: 4.14.1.22824" new-text="Verrsion: 4.15.0.23396">
-	<node node-type="old-component">
-		<node index="10" text="Version: 4.14.1.22824" resource-id="" class="android.widget.TextView" package="chat.rocket.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[367,1674][713,1715]"/>
-	<node node-type="new-component">
-		<node index="10" text="Version: 4.15.0.23396" resource-id="" class="android.widget.TextView" package="chat.rocket.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[367,1674][713,1715]"/>

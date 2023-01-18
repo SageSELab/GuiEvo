@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<root>
+	<node change-type="component-location" old-location ="0,1218,1080,1344" new-location = "0,1344,1080,1470">
+		<node node-type="old-component">
+			<node index="8" text="Licenses" resource-id="apps.jizzu.simpletodo:id/buttonLicenses" class="android.widget.TextView" package="apps.jizzu.simpletodo" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1218][1080,1344]"/>
+		</node>
+		<node node-type="new-component">
+			<node index="9" text="Licenses" resource-id="apps.jizzu.simpletodo:id/buttonLicenses" class="android.widget.TextView" package="apps.jizzu.simpletodo" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1344][1080,1470]" />
+		</node>
+	</node>
+	<node change-type="component-add" new-type="TextView">
+		<node node-type="new-component">
+		    <node index="8" text="Privacy policy" resource-id="apps.jizzu.simpletodo:id/buttonPrivacyPolicy" class="android.widget.TextView" package="apps.jizzu.simpletodo" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1218][1080,1344]" />
+		</node>
+	</node>
+</root>

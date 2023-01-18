@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-
-
-<node change-type="two-color-change" old-color="#3f51b5#ffffff" new-color="#ffffff#4253b6">
-	<node node-type="old-component">
-		<node index="0" text="DONE" resource-id="android:id/button1" class="android.widget.Button" package="com.github.gotify" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[797,1129][978,1255]"/>
-	<node node-type="new-component">
-		<node index="0" text="DONE" resource-id="android:id/button1" class="android.widget.Button" package="com.github.gotify" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[810,1129][978,1255]"/>

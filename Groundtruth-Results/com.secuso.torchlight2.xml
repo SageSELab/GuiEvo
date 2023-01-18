@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-
-
-<node change-type="image-change" old-image="image1" new-image="image2">
-	<node node-type="old-component">
-		<node index="0" text="" resource-id="com.secuso.torchlight2:id/btnSwitch" class="android.widget.ImageButton" package="com.secuso.torchlight2" content-desc="" checkable="false" checked="false" clickable="true" enabled="false" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[68,503][1012,1028]"/>
-	<node node-type="new-component">
-		<node index="0" text="" resource-id="com.secuso.torchlight2:id/btnSwitch" class="android.widget.ImageButton" package="com.secuso.torchlight2" content-desc="" checkable="false" checked="false" clickable="true" enabled="false" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[68,503][1012,1028]"/>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * RxDroid - A Medication Reminder
+ * Copyright (C) 2011-2019 Joseph Lehner <joseph.c.lehner@gmail.com>
+ *
+ *
+ * RxDroid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version. Additional terms apply (see LICENSE).
+ *
+ * RxDroid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RxDroid.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+-->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:title="Development"
+		>
+	<at.jclehner.rxdroid.preferences.RefSummaryCheckBoxPreference android:key="@string/key_use_safe_mode"
+			android:title="@string/_title_use_safe_mode"
+			android:summary="@string/_summary_use_safe_mode"
+			android:defaultValue="false"
+			/>
+
+	<at.jclehner.rxdroid.preferences.LanguagePreference
+			android:key="@string/key_language"
+			android:title="@string/_title_language"
+			android:defaultValue=""
+			android:enabled="false"
+			/>
+
+	<Preference android:key="boot_info"
+			android:title="Boot info"
+			/>
+
+	<Preference android:key="reset_refill_reminder_date"
+			android:title="Reset refill reminder date"
+			/>
+
+	<Preference android:key="dump_build"
+			android:title="Dump android.os.Build"
+			/>
+
+	<CheckBoxPreference android:key="debug_force_splash_warning"
+			android:title="Force splash warning"
+			android:defaultValue="false"
+			/>
+
+	<Preference android:key="db_create_drug_with_many_dose_events"
+			android:title="Create drug with many dose events"
+			/>
+
+	<Preference
+			android:title="Advanced schedule"
+			>
+		<intent
+				android:action="android.intent.action.VIEW"
+				android:targetPackage="at.jclehner.rxdroid"
+				android:targetClass="at.jclehner.rxdroid.AdvancedScheduleActivity"
+				/>
+
+	</Preference>
+
+    <at.jclehner.rxdroid.preferences.DatePreference android:key="test_date"
+            android:title="Date"
+            android:defaultValue="today"
+			app:maxDate="tomorrow"
+			app:minDate="yesterday"
+			app:checkable="true"
+    />
+
+	<CheckBoxPreference android:key="@string/key_use_pretty_fractions"
+			android:title="@string/_title_use_pretty_fractions"
+			android:summary="@string/_summary_use_pretty_fractions"
+			android:defaultValue="false"
+			/>
+
+	<Preference android:key="key_debug_create_backup"
+			android:title="Create backup"
+			/>
+
+
+	<Preference android:key="key_add_drug_past_schedule_end_date"
+			android:title="Add drug w/ scheduleEndDate"
+			/>
+
+	<Preference android:key="key_debug_add_5_drugs"
+			android:title="Add 5 drugs"
+			/>
+
+	<Preference android:key="refill_reminder_snooze_drugs"
+			android:title="Snoozed drugs"
+			android:enabled="true" />
+
+	<Preference android:key="next_refill_reminder_date"
+		android:title="Next refill reminder date"
+		android:enabled="true" />
+
+	<Preference android:key="key_debug_crash_app"
+			android:title="Crash app"
+			/>
+
+	<Preference android:key="key_debug_tablet_layout"
+			android:title="Tablet layout"
+			/>
+
+	<Preference android:key="key_debug_drug_with_missed_doses"
+			android:title="Create drug with missed doses" />
+
+	<Preference android:key="key_debug_delete_drugs"
+			android:title="Delete drugs" />
+
+	<CheckBoxPreference android:key="@string/key_compact_action_bar"
+			android:title="Compact ActionBar"
+			android:defaultValue="@bool/pref_default_compact_action_bar"
+			/>
+
+	<CheckBoxPreference android:key="use_lockscreen"
+			android:title="Enable lockscreen"
+			android:defaultValue="false"
+			/>
+
+	<Preference android:title="Beta link"
+			android:summary="https://play.google.com/apps/testing/at.jclehner.rxdroid"
+			>
+		<intent android:action="android.intent.action.VIEW"
+				android:data="https://play.google.com/apps/testing/at.jclehner.rxdroid"
+				/>
+
+	</Preference>
+</PreferenceScreen>

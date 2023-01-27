@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="webview_html_template" translatable="false"><![CDATA[
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=\"UTF-8\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+
+        <style type=\"text/css\">
+
+        a:link, a:active, a:hover { color: %1$s }
+
+        img, video {
+            display: inline;
+            height: auto;
+            max-width: 100%%;
+            margin-top: 10px;
+        }
+
+        iframe {
+            margin-top: 10px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        h1, p, div {
+            margin-top: 0px;
+        }
+
+        body, blockquote, img, iframe, video, div, table, tbody, tr, td, pre, code, blockquote, p, em, b, span {
+            max-width: 100%% !important;
+        }
+
+        * {
+            word-wrap: break-word !important;
+        }
+
+
+        </style>
+    </head>
+
+    <body>
+      %2$s
+    </body>
+</html>]]></string>
+</resources>

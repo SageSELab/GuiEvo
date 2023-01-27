@@ -1,0 +1,11 @@
+local.properties
+.gradle
+.idea
+*.iml
+build
+*.swp
+*.config
+*.sqlite
+*.rxdbak
+*.txt
+releases/*.apk

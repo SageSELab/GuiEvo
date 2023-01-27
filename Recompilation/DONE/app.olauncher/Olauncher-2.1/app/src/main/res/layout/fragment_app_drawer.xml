@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorPrimaryInverseTrans10">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:imeOptions="actionNone"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="0dp"
+        android:textCursorDrawable="@null"
+        app:closeIcon="@null"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@null"
+        app:queryHint="__"
+        app:searchIcon="@null"
+        app:theme="@style/AppSearchText" />
+
+    <TextView
+        android:id="@+id/appDrawerTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/app_drawer_tips"
+        android:textColor="@color/colorPrimaryTrans90"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="48dp" />
+
+</FrameLayout>

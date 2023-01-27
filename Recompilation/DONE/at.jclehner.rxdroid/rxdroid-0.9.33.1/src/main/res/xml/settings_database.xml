@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * RxDroid - A Medication Reminder
+ * Copyright (C) 2011-2019 Joseph Lehner <joseph.c.lehner@gmail.com>
+ *
+ *
+ * RxDroid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version. Additional terms apply (see LICENSE).
+ *
+ * RxDroid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RxDroid.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+-->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:title="@string/_title_database"
+		android:icon="?attr/iconStorage"
+		>
+
+	<ListPreference android:key="@string/key_history_size"
+			android:title="@string/_title_history_age"
+			android:summary="@string/_summary_history_age"
+			android:entries="@array/history_size"
+			android:defaultValue="1"
+			/>
+
+	<Preference android:key="backup_restore"
+			android:title="@string/_title_backup_restore">
+		<intent
+				android:action="android.intent.action.MAIN"
+				android:targetPackage="at.jclehner.rxdroid"
+				android:targetClass="at.jclehner.rxdroid.BackupActivity"
+				/>
+	</Preference>
+
+
+	<Preference android:key="@string/key_db_stats"
+			android:title="@string/_title_db_stats"
+			android:summary="@string/_msg_db_stats"
+			android:enabled="false"
+			/>
+
+</PreferenceScreen>

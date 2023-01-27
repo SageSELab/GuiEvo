@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * RxDroid - A Medication Reminder
+ * Copyright (C) 2011-2013 Joseph Lehner <joseph.c.lehner@gmail.com>
+ *
+ *
+ * RxDroid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version. Additional terms apply (see LICENSE).
+ *
+ * RxDroid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RxDroid.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="Theme.RxDroid" parent="_ApiSpecificLightTheme">
+		<item name="drugIconTablet">@drawable/ic_drug_tablet_black</item>
+		<item name="drugIconTube">@drawable/ic_drug_tube_black</item>
+		<item name="drugIconGlass">@drawable/ic_drug_glass_black</item>
+		<item name="drugIconSyringe">@drawable/ic_drug_syringe_black</item>
+		<item name="drugIconRing">@drawable/ic_drug_ring_black</item>	
+		<item name="drugIconCapsule">@drawable/ic_drug_capsule_black</item>
+		<item name="drugIconInhaler">@drawable/ic_drug_inhaler_black</item>
+		<item name="drugIconPipette">@drawable/ic_drug_pipette_black</item>
+		
+		<!-- These have no equivalent old icons -->
+		<item name="drugIconAmpoule">@drawable/ic_drug_tablet_black</item>
+		<item name="drugIconIvBag">@drawable/ic_drug_tablet_black</item>
+		
+		<item name="doseStatusTaken">@drawable/ic_dose_taken_dark</item>
+		<item name="doseStatusMissed">@drawable/ic_dose_forgotten_dark</item>
+		<item name="doseStatusIgnored">@drawable/ic_dose_ignored_dark</item>
+		
+		<item name="textColorClickable">@color/black_clickable</item>
+	
+		<item name="colorStatusMissed">#8e5050</item>
+		<item name="colorStatusSkipped">#ff8c3f</item>
+		<item name="colorStatusTaken">#7e8f3d</item>
+		
+		<item name="bgColorLogGroup">#eee</item>
+		<item name="bgColorLogChild">@android:color/transparent</item>
+		
+		<item name="iconLowSupplies">@drawable/ic_low_supply_warning</item>
+		<item name="iconArrowRight">@drawable/ic_arrow_right_black</item>		
+		<item name="iconLock">@drawable/ic_menu_lock_black</item>
+		<item name="iconTime">@drawable/ic_menu_time_black</item>
+		<item name="iconPicture">@drawable/ic_menu_picture_black</item>
+		<item name="iconInfo">@drawable/ic_menu_info_black</item>		
+		<item name="iconWarning">@drawable/ic_menu_warning_black</item>
+		<item name="iconStorage">@drawable/ic_menu_storage_black</item>
+		<item name="iconOverflow">@drawable/ic_overflow_black</item>
+		<item name="iconList">@drawable/ic_list_black</item>
+				
+		<item name="dividerColor">@color/list_divider_light</item>
+		
+		<item name="android:windowAnimationStyle">@null</item>
+
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+
+		<!--
+        <item name="buttonBarStyle">@style/Theme.RxDroid.ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/Theme.RxDroid.ButtonBarButton</item>
+        -->
+	</style>
+	
+	<style name="Theme.RxDroid.NewIcons" parent="@style/Theme.RxDroid">
+	    <item name="drugIconTablet">@drawable/ic_drug_pill2_black</item>
+		<item name="drugIconTube">@drawable/ic_drug_paste2_black</item>
+		<item name="drugIconGlass">@drawable/ic_drug_syrup2_black</item>
+		<item name="drugIconSyringe">@drawable/ic_drug_syringe2_black</item>
+		<item name="drugIconRing">@drawable/ic_drug_ring_black</item>	
+		<item name="drugIconCapsule">@drawable/ic_drug_capsule2_black</item>
+		<item name="drugIconInhaler">@drawable/ic_drug_inhaler2_black</item>
+		
+		<item name="drugIconAmpoule">@drawable/ic_drug_ampoules2_black</item>
+		<item name="drugIconIvBag">@drawable/ic_drug_infusion2_black</item>
+		<item name="drugIconPipette">@drawable/ic_drug_pipette2_black</item>
+	</style>
+	
+	<style name="Theme.RxDroid.Dark" parent="_ApiSpecificDarkTheme">
+		<item name="android:windowActionBar">true</item>
+		<item name="drugIconTablet">@drawable/ic_drug_tablet_white</item>
+		<item name="drugIconTube">@drawable/ic_drug_tube_white</item>
+        <item name="drugIconGlass">@drawable/ic_drug_glass_white</item>
+        <item name="drugIconSyringe">@drawable/ic_drug_syringe_white</item>
+        <item name="drugIconRing">@drawable/ic_drug_ring_white</item>
+        <item name="drugIconCapsule">@drawable/ic_drug_capsule_white</item>        
+		<item name="drugIconInhaler">@drawable/ic_drug_inhaler_white</item>
+		<item name="drugIconPipette">@drawable/ic_drug_pipette_white</item>
+		
+		<!-- These have no equivalent old icons -->
+		<item name="drugIconAmpoule">@drawable/ic_drug_tablet_white</item>
+		<item name="drugIconIvBag">@drawable/ic_drug_tablet_white</item>
+        
+        <item name="doseStatusTaken">@drawable/ic_dose_taken</item>
+        <item name="doseStatusMissed">@drawable/ic_dose_forgotten</item>
+        <item name="doseStatusIgnored">@drawable/ic_dose_ignored</item>
+        
+        <item name="textColorClickable">@color/white_clickable</item>
+        
+        <item name="colorStatusMissed">#ad3030</item>
+        <item name="colorStatusSkipped">#ff6600</item>
+        <item name="colorStatusTaken">#536800</item>
+        
+        <item name="bgColorLogGroup">@android:color/transparent</item>
+        <item name="bgColorLogChild">#111</item>
+        
+        <item name="iconLowSupplies">@drawable/ic_low_supply_warning_white</item>
+        <item name="iconArrowRight">@drawable/ic_arrow_right_white</item>
+        <item name="iconLock">@drawable/ic_menu_lock_white</item>
+        <item name="iconTime">@drawable/ic_menu_time_white</item>
+        <item name="iconPicture">@drawable/ic_menu_picture_white</item>
+        <item name="iconInfo">@drawable/ic_menu_info_white</item>
+        <item name="iconWarning">@drawable/ic_menu_warning_white</item>
+        <item name="iconStorage">@drawable/ic_menu_storage_white</item>
+        <item name="iconOverflow">@drawable/ic_overflow_white</item>
+        <item name="iconList">@drawable/ic_list_white</item>
+
+        <item name="dividerColor">@color/list_divider_dark</item>
+        
+        <item name="android:windowAnimationStyle">@null</item>
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+		<!--
+        <item name="buttonBarStyle">@style/Theme.RxDroid.ButtonBar.Dark</item>
+        <item name="buttonBarButtonStyle">@style/Theme.RxDroid.ButtonBarButton.Dark</item>
+        -->
+    </style>
+    
+	<style name="Theme.RxDroid.Dark.NewIcons" parent="@style/Theme.RxDroid.Dark">
+	    <item name="drugIconTablet">@drawable/ic_drug_pill2_white</item>
+		<item name="drugIconTube">@drawable/ic_drug_paste2_white</item>
+		<item name="drugIconGlass">@drawable/ic_drug_syrup2_white</item>
+		<item name="drugIconSyringe">@drawable/ic_drug_syringe2_white</item>
+		<item name="drugIconRing">@drawable/ic_drug_ring_white</item>	
+		<item name="drugIconCapsule">@drawable/ic_drug_capsule2_white</item>
+		<item name="drugIconInhaler">@drawable/ic_drug_inhaler2_white</item>
+		
+		<item name="drugIconAmpoule">@drawable/ic_drug_ampoules2_white</item>
+		<item name="drugIconIvBag">@drawable/ic_drug_infusion2_white</item>
+		<item name="drugIconPipette">@drawable/ic_drug_pipette2_white</item>	    
+	</style>
+	
+	<style name="Theme.RxDroid.NoAnimation" parent="@style/Theme.RxDroid">
+		<item name="android:windowAnimationStyle">@null</item>		
+	</style>
+
+	<style name="DrugNameStyle" parent="@android:style/TextAppearance.Large">
+		<item name="android:gravity">center_horizontal|left</item>
+		<item name="android:textColor">?attr/textColorClickable</item>
+	</style>
+
+	<style name="ShowcaseButton">
+		<item name="android:background">?colorPrimary</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:paddingLeft">8dip</item>
+		<item name="android:paddingRight">8dip</item>
+		<item name="android:paddingTop">4dip</item>
+		<item name="android:paddingBottom">4dip</item>
+	</style>
+
+	<style name="ShowcaseView.Title" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">?colorPrimary</item>
+	</style>
+	
+	<!-- 
+	AlertDialog text color fix thanks to Shawn Castrianni, see: 
+	http://groups.google.com/group/android-developers/browse_thread/thread/f0b34621d3a70c4b 
+	-->
+	<style name="Theme.RxDroid.Dialog" parent="@android:style/Theme.Dialog">
+	   <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+	</style>
+	<style name="Theme.RxDroid.CrashDialog" parent="@android:style/Theme.Dialog" />
+
+    <style name="Theme.RxDroid.ButtonBar">
+-		<item name="android:background">@android:drawable/bottom_bar</item>
+        <item name="android:padding">8dip</item>
+-	</style>
+
+    <style name="Theme.RxDroid.ButtonBar.Dark" parent="Theme.RxDroid.ButtonBar" />
+    <style name="Theme.RxDroid.ButtonBarButton" />
+    <style name="Theme.RxDroid.ButtonBarButton.Dark"/>
+
+    <style name="Theme.RxDroid.Transparent" parent="Theme.RxDroid">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+	
+	<style name="TextAppearance.Large.Clickable" parent="@android:style/TextAppearance.Large">
+		<item name="android:textColor">?attr/textColorClickable</item>
+	</style>
+
+	<style name="ListViewStyleDark" parent="android:Widget.ListView">
+		<item name="android:listSelector">?selectableItemBackground</item>
+	</style>
+
+	<style name="ListViewStyleLight" parent="android:Widget.ListView.White">
+		<item name="android:listSelector">?selectableItemBackground</item>
+	</style>
+
+	<style name="_ApiSpecificLightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:listViewStyle">@style/ListViewStyleLight</item>
+		<item name="android:editTextStyle">@android:style/Widget.EditText</item>
+	</style>
+
+	<style name="_ApiSpecificDarkTheme" parent="Theme.AppCompat">
+		<item name="android:listViewStyle">@style/ListViewStyleDark</item>
+		<item name="android:editTextStyle">@android:style/Widget.EditText</item>
+	</style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/log_group_height"
+    android:background="?attr/bgColorLogGroup"
+    android:layout_gravity="center"
+    android:layoutDirection="locale"
+>
+    
+    <TextView android:id="@+id/text_date"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/mock_date"
+    />
+
+    <ImageView android:id="@+id/img_status"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dip"
+        android:layout_marginBottom="9dip"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_dose_forgotten_dark"
+     />
+</LinearLayout>

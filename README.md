@@ -11,7 +11,7 @@ To implement GuiEvo, we gathered 987 apps from F-Droid [1]. However, we consider
 
 ## Part2: Source code and setup instructions of GuiEvo
 ### Source Code Directory
-<p align="center"> <img src="ReadMe_Images/structure.png" width="600"></p>
+<p align="center"> <img src="ReadMe_Images/structure.png" width="800"></p>
 
 ### GuiEvo Setup
 **NOTE**: Following instructions for installing GuiEvo are based on M1 Mac.

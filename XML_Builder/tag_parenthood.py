@@ -3,30 +3,50 @@ import csv
 import pandas as pd
 import itertools 
 
+	
+
+
+def set_parent_node_num(filename):
+	df = pd.read_csv(filename)
+	df.loc[0,'parent_node_num'] = 0
+	df.loc[1,'parent_node_num'] = 1
+	
+	for i in range(len(df)): # for looping over parent locations 
+		if i>1:
+			parent_location = df.loc[i,'parent_location'] # string form (0, '4') where 0 is parent level and '4' is parent index and both 0 and 4 are in string form
+			parent_level = parent_location.split(',')[0].replace('(','') #in string form
+			parent_index = parent_location.split(',')[1].replace(')','').replace(' ','').strip("'") #in string form
+			parent_node_nums = []	
+			for j in range(1,i): # for looping over node level and index
+				node_level = str(df.loc[j,'xml_level'])
+				node_index = str(df.loc[j,'xml_index'])
+				if(node_level == parent_level and node_index == parent_index):
+					parent_node_nums.append(df.loc[j,'node_num'])
+			node_num = parent_node_nums[len(parent_node_nums)-1]
+			df.loc[i,'parent_node_num'] = node_num
+	df.to_csv(filename, index=False)
 
 
 
-def set_parent_leaf_tag(nodes,index_level_pairs,df,filename):
-	parent_locations = []
-	node_nums = []
-	leaf_nodes = []
-	for i in range (len(nodes)):
-		parent_locations.append(nodes[i][3])
-	for i in range (len(nodes)):
-		node_index_level = index_level_pairs[i]
-		if node_index_level in parent_locations:
-			node_nums.append(int(nodes[i][0]))
-		if node_index_level not in parent_locations:
-			leaf_nodes.append(int(nodes[i][0]))
-	for loc in node_nums:
-		df.loc[df["node_num"]==loc, "isParent"] = "Parent"
-	for i in range(len(leaf_nodes)):
-		df.at[leaf_nodes[i]-1, 'isParent'] = "Leaf"
+
+def set_parent_leaf_tag(filename):
+	set_parent_node_num(filename)
+	df = pd.read_csv(filename)
+	parent_node_nums = []
+	for i in range (1,len(df)):
+		parent_node_nums.append(df.loc[i,'parent_node_num'])
+	for node in parent_node_nums:
+		df.loc[df["node_num"] == node, "isParent"] = "Parent"
+	for i in range (1,len(df)):
+		if df.loc[i,'isParent'] != "Parent":
+			df.loc[i,'isParent'] = "Leaf"
+	df.loc[0,'isParent'] = None
 	df['xml_index'].astype(int)
 	df['xml_index'].astype(str)
 	df['total_changes'].astype(float)
 	df['total_changes'].astype(int)
 	df.to_csv(filename, index=False)
+	
 
 
 
@@ -42,9 +62,9 @@ def get_index_level_pairs(nodes):
 
 
 
-def get_valid_nodes(csv_filename):
+def get_valid_nodes(filename):
 	nodes = []
-	with open(csv_filename) as fileObject:
+	with open(filename) as fileObject:
 		readerObject = csv.reader(fileObject)
 		for row in readerObject:
 			nodes.append(row)
@@ -53,10 +73,9 @@ def get_valid_nodes(csv_filename):
 
 
 
-def get_parent_leaf_tag(root_directory):
-	filename = root_directory + csv_filename
+def get_parent_leaf_tag(filename):
 	nodes = get_valid_nodes(filename)
 	index_level_pairs = get_index_level_pairs(nodes)
 	df = pd.read_csv(filename)
-	set_parent_leaf_tag(nodes,index_level_pairs,df,filename)
+	set_parent_leaf_tag(filename)
 

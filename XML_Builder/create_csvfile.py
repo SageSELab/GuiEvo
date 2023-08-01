@@ -4,35 +4,59 @@ import csv
 from config import *
 
 
-header = [
-	'node_num',
-	'xml_level',
-	'xml_index',
-	'parent_location',
-	'isParent',
-	'node_attributes',
-	'component_validity',
-	'old_bounds',
-	'new_bounds',
-	'total_changes',
-	'change_types',
-	'change_description',
-	'new_attributes'
-	]
-
-
-#this function will write component information to the csv file.
+#=============================================== CSV file for tool result =================================
 def save(filename, records):
 	with open(filename, 'w+') as csvfile:
-		writer = csv.DictWriter(csvfile, fieldnames = header)
+		writer = csv.DictWriter(csvfile, fieldnames = tool_csv_header)
 		writer.writeheader()
 		for record in records:
 			writer.writerow(record)
 
-
-
-def generate(filename):
-	#The CSV file will contain the following information for all the components from old GUI and new GUI. 
+def build_tree(filename):
 	with open(filename, 'w') as csvfile:
-		writer = csv.DictWriter(csvfile, fieldnames = header)
+		writer = csv.DictWriter(csvfile, fieldnames = tool_csv_header)
+		writer.writeheader()
+
+
+#========================================= CSV file for ground-truth result =================================
+def gt_save(filename, records):
+	with open(filename, 'w+') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = gt_header)
+		writer.writeheader()
+		for record in records:
+			writer.writerow(record)
+
+def gt_generate(filename):
+	with open(filename, 'w') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = gt_header)
+		writer.writeheader()
+
+
+#========================================= CSV file for app records =================================
+
+def app_save(filename, records):
+	with open(filename, 'w+') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = apps_header)
+		writer.writeheader()
+		for record in records:
+			writer.writerow(record)
+
+def app_build_tree(filename):
+	with open(filename, 'w') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = apps_header)
+		writer.writeheader()
+
+
+#========================================= CSV file for final result =================================
+
+def result_save(filename, records):
+	with open(filename, 'w+') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = all_app_results)
+		writer.writeheader()
+		for record in records:
+			writer.writerow(record)
+
+def result_build_tree(filename):
+	with open(filename, 'w') as csvfile:
+		writer = csv.DictWriter(csvfile, fieldnames = all_app_results)
 		writer.writeheader()

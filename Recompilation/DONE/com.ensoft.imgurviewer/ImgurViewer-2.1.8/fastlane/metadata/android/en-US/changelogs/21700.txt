@@ -1,3 +1,0 @@
-2.1.7:
-Added support to share image and video links to ImgurViewer.
-Improved services support.

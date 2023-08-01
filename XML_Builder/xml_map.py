@@ -1,14 +1,8 @@
-#This file is used for XML tree construction with parent-child mapping
-#----------------------------------------------------------------
-
 import xml.etree.ElementTree as ET
 import numpy as np
 
+component_list = []
 
-
-
-component_list = []	#list of nodes
-	
 #https://stackoverflow.com/questions/15748528/python-how-to-determine-hierarchy-level-of-parsed-xml-elements
 def perf_func(elem, func, level=0):
 	func(elem,level)
@@ -42,7 +36,7 @@ def parent_to_child(old_xml):
 			tree[i][2] = nodes_list[ind][1] #index
 			tree[i][3] = None #parent_level_index
 			tree[i][4] = None #attributes
-			info_dict[tree[i][0]] = {'node_num':tree[i][0],'xml_level':tree[i][1],'xml_index':'0','parent_location':tree[i][3],'node_attributes':tree[i][4],'component_validity':'ignored','total_changes':tc}
+			info_dict[tree[i][0]] = {'node_num':tree[i][0],'xml_level':tree[i][1],'xml_index':'0','parent_location':tree[i][3],'node_attributes':tree[i][4],'component_validity':'ignored','total_changes':tc,'class':None}
 			i += 1
 		else:
 			tree[i][0] = i+1 # node_num
@@ -51,7 +45,7 @@ def parent_to_child(old_xml):
 			tree[i][4] = nodes_list[ind][2] #attributes
 			parent_level = tree[i][1] - 1
 			if tree[i][1] == 1:
-				parent_index = None
+				parent_index = '0'
 				tree[i][3] = (parent_level,parent_index) #parent_level_index
 				info_dict[tree[i][0]] = {}
 				info_dict[tree[i][0]]['node_attributes'] = {}
@@ -68,6 +62,8 @@ def parent_to_child(old_xml):
 				info_dict[tree[i][0]]['node_attributes'] = {}
 				info_dict[tree[i][0]] = {'node_num':tree[i][0],'xml_level':tree[i][1],'xml_index':tree[i][2],'parent_location':tree[i][3],'node_attributes':tree[i][4],'total_changes':tc}
 				i+=1	
+	global component_list
+	component_list = []
 	return info_dict, tree
 
 

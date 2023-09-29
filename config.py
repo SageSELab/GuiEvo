@@ -1,4 +1,4 @@
-root = "/Users/sabihasalma/Documents/Academic/Research/ICSE24-GuiEvo/"
+root = "/Users/username/Documents/Academic/Research/GuiEvo/"
 evaluation_data_directory = root + "Evaluation-Dataset/"
 Modelcheckpoint = root + 'Detection/modelDir_frozen_inception_v3.pb'
 label_filepath = root + 'Detection/labels.txt'

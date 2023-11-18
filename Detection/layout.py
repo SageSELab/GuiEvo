@@ -52,7 +52,7 @@ def remove(ct, info_dict, i):
 	info_dict[i]['class'] = info_dict[i]['node_attributes']['class'].split(".")[-1]
 	return info_dict
 
-
+#modified from https://pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
 def locate_old_component(template, image,i):
 	gray_template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
 	canny_gray_template = cv2.Canny(gray_template, 100,200, apertureSize=3)

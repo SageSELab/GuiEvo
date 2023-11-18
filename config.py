@@ -67,8 +67,8 @@ recompiled_apps = [
 	'com.readrops',
 	'com.finnmglas.launcher',
 	'com.ensoft.imgurviewer',
-	'at.jclehner.rxdroid',
-	'app.olauncher'
+	'at.jclehner.rxdroid'
+	#'app.olauncher'
 ]
 
 inputs = [

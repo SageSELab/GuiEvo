@@ -21,13 +21,13 @@ from skimage.metrics import structural_similarity as ssim
 
 
 def evaluate_rq4():
-	rq3_4.compare_XMLs(GuiEvo,REMAUI,ReDraw)
+	rq3_4.compare_XMLs(GuiEvo,REMAUI,ReDraw,GPT)
 	print("9. RQ4 evaluation done")
 
 
 
 def evaluate_rq3():
-	rq3_4.compare_screens(GuiEvo,REMAUI)
+	rq3_4.compare_screens(GuiEvo,REMAUI,GPT)
 	print("8. RQ3 evaluation done")
 	
 

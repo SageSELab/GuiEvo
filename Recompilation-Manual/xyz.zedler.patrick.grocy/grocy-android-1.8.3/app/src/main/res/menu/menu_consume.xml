@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_batch_mode"
+        android:title="@string/action_batch_mode"
+        android:icon="@drawable/ic_round_batch_menu"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/action_product_overview"
+        android:title="@string/title_product_overview"
+        android:icon="@drawable/ic_round_info_outline_anim_menu"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/action_open"
+        android:title="@string/action_open"
+        android:icon="@drawable/ic_round_open_menu"
+        app:showAsAction="always"
+        android:visible="false"
+        tools:ignore="AlwaysShowAction" />
+
+</menu>

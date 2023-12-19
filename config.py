@@ -1,4 +1,4 @@
-root = "/Users/username/Documents/Academic/Research/GuiEvo/"
+root = "/Users/sabihasalma/Documents/Academic/Research/ICSE24-GuiEvo/"
 evaluation_data_directory = root + "Evaluation-Dataset/"
 Modelcheckpoint = root + 'Detection/modelDir_frozen_inception_v3.pb'
 label_filepath = root + 'Detection/labels.txt'
@@ -7,6 +7,7 @@ evaluation = root + "Evaluation/"
 ReDraw = evaluation + "Comparison-with-ReDraw/"
 REMAUI = evaluation + "Comparison-with-REMAUI/"
 GuiEvo = evaluation + "Comparison-with-GuiEvo/"
+GPT = evaluation + "Comparison-using-GPT/"
 total_apps = 22
 api_key = 'AIzaSyA-ujCcMcf9lFyYayl5XKMnRVrxOx651_U'
 
@@ -67,7 +68,7 @@ recompiled_apps = [
 	'com.readrops',
 	'com.finnmglas.launcher',
 	'com.ensoft.imgurviewer',
-	'at.jclehner.rxdroid'
+	'at.jclehner.rxdroid',
 	#'app.olauncher'
 ]
 

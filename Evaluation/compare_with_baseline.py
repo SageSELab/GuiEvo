@@ -48,37 +48,42 @@ def calculate_xml_difference(new_xml, generated_xml):
 
 
 
-def compare_XMLs(guievo_path, remaui_path, redraw_path):
+def compare_XMLs(guievo_path, remaui_path, redraw_path, gpt_path):
 	print('\n\n')
-	ted_guievo, ted_remaui, ted_redraw = [],[],[]
+	ted_guievo, ted_remaui, ted_redraw, ted_gpt = [],[],[],[]
 
 	for app in recompiled_apps:
 		remaui_xml = remaui_path+app+'/'+'remaui_xml.xml'
 		redraw_xml = redraw_path+app+'/'+'redraw_xml.xml'
 		guievo_recompiled_xml = guievo_path+app+'/'+'recompiled_xml.xml'
+		gpt_xml = gpt_path+app+'/'+'gpt.xml'
 		new_xml = remaui_path+app+'/'+'new_xml.xml'
 		
 		ted_guievo_result = calculate_xml_difference(new_xml,guievo_recompiled_xml)
 		ted_remaui_result = calculate_xml_difference(new_xml,remaui_xml)
 		ted_redraw_result = calculate_xml_difference(new_xml,redraw_xml)
+		ted_gpt_result = calculate_xml_difference(new_xml,gpt_xml)
 		
 		ted_guievo.append(ted_guievo_result)
 		ted_remaui.append(ted_remaui_result)
 		ted_redraw.append(ted_redraw_result)
+		ted_gpt.append(ted_gpt_result)
 
-		print(app,":\nTED	[GuiEvo: ",ted_guievo_result,", REMAUI: ",ted_remaui_result,", ReDraw: ",ted_redraw_result,"]\n")
+		print(app,":\nTED	[GuiEvo: ",ted_guievo_result,", REMAUI: ",ted_remaui_result,", GPT: ",ted_gpt_result,", ReDraw: ",ted_redraw_result,"]\n")
 
-	print("Average tree edit distance: GuiEvo [", sum(ted_guievo)/len(recompiled_apps),"]	REMAUI [",sum(ted_remaui)/len(recompiled_apps),"]	ReDraw [",sum(ted_redraw)/len(recompiled_apps),"]")
+	print("Average tree edit distance: GuiEvo [", sum(ted_guievo)/len(recompiled_apps),"]	REMAUI [",sum(ted_remaui)/len(recompiled_apps),"]   GPT [",sum(ted_gpt)/len(recompiled_apps),"]	ReDraw [",sum(ted_redraw)/len(recompiled_apps),"]")
 
 
 	
-def compare_screens(guievo_path, remaui_path):
-	ssim_remaui, ssim_guievo = [],[]
-	mae_remaui, mae_guievo = [],[]
-	mse_remaui, mse_guievo = [],[]
+def compare_screens(guievo_path, remaui_path, gpt_path):
+	ssim_remaui, ssim_guievo, ssim_gpt = [],[], []
+	mae_remaui, mae_guievo, mae_gpt = [],[], []
+	mse_remaui, mse_guievo, mse_gpt = [],[], []
+
 	print('\n\n')
 	for app in recompiled_apps:
 
+		gpt_screen = gpt_path+app+'/'+'gpt.png'
 		remaui_screen = remaui_path+app+'/'+'remaui_ss.png'
 		guievo_recompiled_screen = guievo_path+app+'/'+'recompiled_ss.png'
 		new_screen = remaui_path+app+'/'+'new_ss.png'
@@ -96,12 +101,19 @@ def compare_screens(guievo_path, remaui_path):
 		ssim_guievo.append(ssim_guievo_result)
 		mae_guievo.append(mae_guievo_result)
 		mse_guievo.append(mse_guievo_result)
+
+		ssim_gpt_result = calculate_ssim(new_screen,gpt_screen)
+		mae_gpt_result = calculate_mae(new_screen,gpt_screen)
+		mse_gpt_result = calculate_mse(new_screen,gpt_screen)
+		ssim_gpt.append(ssim_gpt_result)
+		mae_gpt.append(mae_gpt_result)
+		mse_gpt.append(mse_gpt_result)
 		
-		print(app,":\nSSIM[GuiEvo: ",ssim_guievo_result,", REMAUI: ",ssim_remaui_result,"]\nMAE[GuiEvo: ",mae_guievo_result,", REMAUI: ",mae_remaui_result,"]\nMSE[GuiEvo: ",mse_guievo_result,", REMAUI: ",mse_remaui_result,"]\n")
+		print(app,":\nSSIM[GuiEvo: ",ssim_guievo_result,", REMAUI: ",ssim_remaui_result,"GPT: ",ssim_gpt_result,"]\nMAE[GuiEvo: ",mae_guievo_result,", REMAUI: ",mae_remaui_result,", GPT: ",mae_gpt_result,"]\nMSE[GuiEvo: ",mse_guievo_result,", REMAUI: ",mse_remaui_result,", GPT: ",mse_gpt_result,"]\n")
 
 
-	print("Average image similarity: GuiEvo [", sum(ssim_guievo)/len(recompiled_apps),"]	REMAUI [",sum(ssim_remaui)/len(recompiled_apps),"]")
-	print("Average mae: GuiEvo [", sum(mae_guievo)/len(recompiled_apps),"]	REMAUI [",sum(mae_remaui)/len(recompiled_apps),"]")
-	print("Average mse: GuiEvo [", sum(mse_guievo)/len(recompiled_apps),"]	REMAUI [",sum(mse_remaui)/len(recompiled_apps),"]")
+	print("Average image similarity: GuiEvo [", sum(ssim_guievo)/len(recompiled_apps),"] GPT [", sum(ssim_gpt)/len(recompiled_apps),"]	REMAUI [",sum(ssim_remaui)/len(recompiled_apps),"]")
+	print("Average mae: GuiEvo [", sum(mae_guievo)/len(recompiled_apps),"]   GPT [", sum(mae_gpt)/len(recompiled_apps),"]	  REMAUI [",sum(mae_remaui)/len(recompiled_apps),"]")
+	print("Average mse: GuiEvo [", sum(mse_guievo)/len(recompiled_apps),"]	GPT [", sum(mse_gpt)/len(recompiled_apps),"]   REMAUI [",sum(mse_remaui)/len(recompiled_apps),"]")
 	
 

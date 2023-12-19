@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * RxDroid - A Medication Reminder
+ * Copyright (C) 2011-2019 Joseph Lehner <joseph.c.lehner@gmail.com>
+ *
+ *
+ * RxDroid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version. Additional terms apply (see LICENSE).
+ *
+ * RxDroid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RxDroid.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+-->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:key="prefscreen_notifications"
+		android:title="@string/_title_prefscreen_notifications"
+		android:icon="?attr/iconWarning"
+		>
+	<ListPreference android:key="@string/key_alarm_mode"
+			android:title="@string/_title_repeat_alarm"
+			android:summary="@string/_summary_repeat_alarm"
+			android:defaultValue="0"
+			android:entries="@array/alarm_repeat_times"
+			android:entryValues="@array/alarm_repeat_times_values"
+			/>
+
+	<EditTextPreference android:key="@string/key_low_supply_threshold"
+			android:title="@string/_title_min_supply_days"
+			android:summary="@string/_summary_min_supply_days"
+
+			android:defaultValue="10"
+			android:inputType="number"
+			android:selectAllOnFocus="true"
+			/>
+
+	<CheckBoxPreference android:key="@string/key_swipe_to_take_all"
+			android:title="@string/_title_swipe_to_take_all"
+			android:summary="@string/_summary_swipe_to_take_all"
+			android:enabled="@bool/pref_visibility_swipe_to_take_all"
+			android:defaultValue="false"
+			/>
+
+	<at.jclehner.rxdroid.preferences.TogglableTimePeriodPreference
+			android:key="@string/key_quiet_hours"
+			android:title="@string/_title_quiet_hours"
+			android:defaultValue="@string/pref_default_quiet_hours"
+			/>
+
+	<Preference android:key="notification_channels"
+			android:title="@string/_title_pref_notification_methods"
+			android:enabled="false" />
+
+	<PreferenceCategory android:key="notification_methods"
+			android:title="@string/_title_pref_notification_methods"
+	>
+
+		<at.jclehner.rxdroid.preferences.SmartRingtonePreference android:key="@string/key_notification_sound"
+				android:title="@string/_title_notification_sound"
+				android:ringtoneType="notification"
+				android:showDefault="true"
+				android:showSilent="true"
+				android:defaultValue="default"
+				/>
+
+		<at.jclehner.rxdroid.preferences.AutoSummaryListPreference
+				android:key="@string/key_notification_light_color"
+				android:title="@string/_title_pref_use_led"
+				android:entries="@array/led_colors"
+				android:entryValues="@array/led_color_values"
+				android:defaultValue=""
+				/>
+
+		<CheckBoxPreference android:key="@string/key_use_vibrator"
+				android:title="@string/_title_pref_use_vibrator"
+				android:defaultValue="true"
+				/>
+
+	</PreferenceCategory>
+</PreferenceScreen>

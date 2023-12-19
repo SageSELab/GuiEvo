@@ -1,0 +1,25 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="android:windowContentOverlay">@null</item> <!--To remove the action bar shadow/elevation -->
+		<item name="android:windowBackground">@android:color/black</item>
+	</style>
+
+	<style name="AppThemeNoActionBar" parent="android:Theme.Holo.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="android:windowBackground">@android:color/black</item>
+	</style>
+
+	<style name="AppThemeFull" parent="AppThemeNoActionBar">
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+
+	<style name="AppThemeSettings" parent="@style/Theme.AppCompat">
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="AppDialogTheme" parent="Theme.AppCompat.Dialog.Alert" />
+</resources>

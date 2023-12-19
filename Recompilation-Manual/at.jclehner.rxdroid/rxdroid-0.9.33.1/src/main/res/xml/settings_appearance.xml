@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * RxDroid - A Medication Reminder
+ * Copyright (C) 2011-2019 Joseph Lehner <joseph.c.lehner@gmail.com>
+ *
+ *
+ * RxDroid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version. Additional terms apply (see LICENSE).
+ *
+ * RxDroid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RxDroid.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ */
+-->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:key="prefscreen_display"
+		android:title="@string/_title_prefscreen_display"
+		android:icon="?attr/iconPicture"
+		>
+	<CheckBoxPreference android:key="@string/key_theme_is_dark"
+			android:title="@string/_title_dark_theme"
+			android:defaultValue="false"
+			/>
+
+	<CheckBoxPreference android:key="@string/key_enable_landscape_mode"
+			android:title="@string/_title_enable_landscape_mode"
+			android:summary="@string/_summary_enable_landscape_mode"
+			android:defaultValue="@bool/pref_default_landscape_enabled"
+			android:enabled="@bool/pref_visibility_landscape_enabled"
+			/>
+
+	<CheckBoxPreference android:key="@string/key_compact_action_bar"
+			android:title="@string/_title_compact_action_bar"
+			android:summary="@string/_summary_compact_action_bar"
+			android:defaultValue="@bool/pref_default_compact_action_bar"
+			android:enabled="false"
+			/>
+
+
+	<CheckBoxPreference android:key="@string/key_use_pretty_fractions"
+			android:title="@string/_title_use_pretty_fractions"
+			android:summary="@string/_summary_use_pretty_fractions"
+			android:defaultValue="@bool/pref_default_use_pretty_fractions"
+			android:enabled="false"
+			/>
+
+	<PreferenceCategory
+			android:title="@string/_title_show_in_list"
+			>
+		<CheckBoxPreference android:key="@string/key_use_smart_sort"
+				android:title="@string/_title_smart_sort"
+				android:summary="@string/_summary_smart_sort"
+				android:defaultValue="true"
+				android:enabled="false"
+				/>
+
+		<at.jclehner.rxdroid.preferences.RefSummaryCheckBoxPreference android:key="@string/key_skip_dose_dialog"
+				android:title="@string/_title_skip_dose_dialog"
+				android:summary="@string/_summary_skip_dose_dialog"
+				android:defaultValue="false"
+				android:enabled="false"
+				/>
+
+		<CheckBoxPreference android:key="@string/key_show_supply_monitors"
+				android:title="@string/_title_show_supply_monitors"
+				android:summary="@string/_summary_show_supply_monitors"
+				android:defaultValue="false"
+				/>
+
+		<CheckBoxPreference android:key="@string/key_scramble_names"
+				android:title="@string/_title_scramble_names"
+				android:summary="@string/_summary_scramble_names"
+				android:defaultValue="false"
+				/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
